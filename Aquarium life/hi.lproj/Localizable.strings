@@ -1,0 +1,263 @@
+/* 
+  Localizable.strings
+  Aquarium life
+
+  Created by Sahil Satralkar on 26/02/21.
+  
+*/
+
+//Parent view
+"MyAquariums" = "मेरे एक्वैरियम";
+"CareSheets"  = "देखभाल पत्र";
+"Calculators" = "कैलकुलेटर";
+"MyNotes"     = "मेरी टिप्पणियाँ";
+"Settings"    = "सेटिंग्स";
+
+//My tank view
+"LitersVolume" = "लीटर की मात्रा";
+"Filtration"    = "फिल्टर";
+"Substrate"     = "सब्सट्रेट";
+"WithHeating"   = "हीटर के साथ";
+"WithoutHeating" = "बिना हीटर के";
+"TapOnPlus"     = "नया एक्वेरियम जोड़ने के लिए + पर टैप करें";
+"AddNewAquarium" = "मेरे एक्वेरियम में नया एक्वेरियम जोड़ें";
+
+//Add new aquarium
+"DismissButton" = "खारिज";
+"AddAquarium"   = "एक्वेरियम जोड़ें";
+"SaveButton"    = "सहेजें";
+"Name"          = "नाम";
+"egGreenMountain" = "e.g. हरे पहाड़ों का एक्वेरियम";
+"Dimensions"    = "परिमाण";
+"Centimeters"   = "सेंटीमीटर";
+"Inches"        = "इंच";
+"Length"        = "लंबाई";
+"Width"         = "चौड़ाई";
+"Height"        = "ऊंचाई";
+"Internal"      = "अंदरूनी";
+"Overhead"      = "ऊपर वाले";
+"Canister"      = "कनस्तर";
+"Sump"          = "नाबदान";
+"Heater"        = "हीटर";
+"Yes"           = "हाँ";
+"No"            = "नहीं";
+"Sand"          = "रेत";
+"Gravel"        = "कंकड़";
+"Soil"          = "मिट्टी";
+"Dirted"        = "मैल";
+"Length="        = "लंबाई =";
+"Width="         = "चौड़ाई =";
+"Height="        = "ऊंचाई =";
+"NameEmptyAlertTitle" = "नाम खाली है!";
+"NameEmptyAlertMsg" = "कृपया एक्वेरियम का नाम दर्ज करें";
+"NameLengthAlertTitle" = "लंबाई खाली है!";
+"NameLengthAlertMsg" = "कृपया एक्वेरियम की लंबाई दर्ज करें";
+"NameWidthAlertTitle" = "चौड़ाई खाली है!";
+"NameWidthAlertMsg" = "कृपया एक्वेरियम की चौड़ाई दर्ज करें";
+"NameHeightAlertTitle" = "ऊंचाई खाली है!";
+"NameHeightAlertMsg" = "कृपया एक्वेरियम की ऊंचाई दर्ज करें";
+"OKButton" = "ठीक है";
+"0.0 centimeters" = "0.0 सेंटीमीटर";
+"0.0 inches" = "0.0 इंच";
+"0.0 liters" = "0.0 लीटर";
+"0.0 US gallons" = "0.0 अमेरिकी गैलन";
+"0.0 UK gallons" = "0.0 यूके गैलन";
+
+
+//Aquarium details view
+"Fish"      = "मछली";
+"Shrimps"   = "श्रिम्प";
+"Plants"    = "पौधे";
+"AquariumLife"  = "एक्वेरियम जीवन";
+"LogBook"       = "लॉग बुक";
+"LogRecords"    = "लॉग रिकॉर्ड";
+"TapToSeeDetails"   = "विस्तार से देखने के लिए टैप करें";
+
+//Add Fish to Aquarium
+"FishInAquarium" = "एक्वेरियम के मछली";
+"TapToAddFishAndSwipe" = "नई मछली जोड़ने के लिए + पर टैप करें \nमछली पंक्ति को हटाने के लिए दाईं से बाईं ओर स्वाइप करें";
+"AddNewFishAccess"      = "एक्वेरियम में नई मछली जोड़ें";
+"Nos"   = "संख्या";
+
+//Select Fish
+"SelectionOfFish"   = "मछली का चयन";
+"AddFish"   = "मछली जोड़ें";
+"Selection:"    = "चयन :";
+"Quantity:" = "मात्रा : ";
+
+//Add Shrimp to Aquarium
+"ShrimpInAquarium"          = "एक्वेरियम के श्रिम्प";
+"TapToAddShrimpAndSwipe"    = "नई श्रिम्प जोड़ने के लिए + पर टैप करें \nश्रिम्प पंक्ति को हटाने के लिए दाईं से बाईं ओर स्वाइप करें";
+"UnlockShrimpsAlertTitle"   = "श्रिम्प का ताला खोले!";
+"UnlockShrimpsAlertMsg"     = "आगे बढ़ने के लिए सेटिंग्स से श्रिम्प पैक खरीदें";
+"AddShrimpAccess"           = "एक्वेरियम में नए श्रिम्प जोड़ें";
+
+//Select Shrimp
+"SelectionOfShrimp"   = "श्रिम्प का चयन";
+"AddShrimp"   = "श्रिम्प जोड़ें";
+
+//Add Plants to Aquarium
+"PlantsInAquarium"          = "एक्वेरियम के पौधे";
+"TapToAddPlantsAndSwipe"    = "नई पौधे जोड़ने के लिए + पर टैप करें \nपौधे पंक्ति को हटाने के लिए दाईं से बाईं ओर स्वाइप करें";
+"UnlockPlantsAlertTitle"   = "पौधों का ताला खोले!";
+"UnlockPlantsAlertMsg"     = "आगे बढ़ने के लिए सेटिंग्स से पौधा पैक खरीदें";
+"AddPlantAccess"           = "एक्वेरियम में नए पौधे जोड़ें";
+
+//Select Shrimp
+"SelectionOfPlant"   = "पौधों का चयन";
+"AddPlant"           = "पौधे जोड़ें";
+
+//Add Logs to Aquarium
+"TapToAddLogsAndSwipe"  = "नई लॉग जोड़ने के लिए + पर टैप करें \nलॉग पंक्ति को हटाने के लिए दाईं से बाईं ओर स्वाइप करें";
+"AddLogAccess"  = "एक्वेरियम में नए लॉग जोड़ें";
+
+//Add new logs
+"AddNewLog"         = "नया लॉग जोड़ें";
+"Temperature="      = "तापमान =";
+"pH="               = "पीएच =";
+"Ammonia="          = "अमोनिया =";
+"Nitrite="          = "नाइट्राट =";
+"Nitrate="          = "नाइट्रेट =";
+"ppm"               = "पीपीएम";
+
+//Calculator view
+"Selection"         = "चयन";
+"Volume calculator" = "आयतन कैलकुलेटर";
+"Substrate calculator" = "सब्सट्रेट कैलकुलेटर";
+"Water change calculator" = "जल परिवर्तन कैलकुलेटर";
+"Carbon dioxide calculator" = "कार्बन डाईऑक्साइड कैलकुलेटर";
+"NPK fertiliser calculator" = "एनपीके खाद कैलकुलेटर";
+
+//Care Sheets view
+"PresentSelection" = "मौजूदा चयन";
+"LISTOFFISH" = "मछली की सूची";
+"LISTOFSHRIMPS" = "श्रिम्प की सूची";
+"LISTOFPLANTS" = "पौधों की सूची";
+
+//Volume calculator
+"liters" = "लीटर";
+"US gallons" = "अमेरिकी गैलन";
+"UK gallons" = "ब्रिटेन की गैलन";
+"Volume" = "आयतन";
+
+//Substrate calculator
+"Front depth" = "सामने की गहराई";
+"Rear depth" = "पीछे की गहराई";
+"Substrate Volume" = "सब्सट्रेट आयतन";
+
+//Water change calculator
+"Fresh water" = "ताजा पानी";
+"Aquarium Volume =" = "एक्वेरियम आयतन =";
+"Water change =" = "पानी परिवर्तन =";
+
+//Co2 calculator view
+"Select pH and dKH values" = "पीएच और डीकेएच मूल्यों का चयन करें";
+"pH value" = "पीएच मूल्य";
+"dKH value" = "डीकेएच मूल्य";
+"Dissolved Carbon dioxide" = "घुलित कार्बन डाइऑक्साइड";
+"parts per million (ppm)" = "प्रति मिलियन (पीपीएम) हिस्सा";
+
+//NPK calculator view
+"NPK fertiliser ratio" = "एनपीके खाद अनुपात";
+"Tank volume =" = "टैंक आयतन =";
+"N :" = "एन :";
+"P :" = "पी :";
+"K :" = "के :";
+"Fertiliser Weight =" = "खाद वजन =";
+"Fertiliser concentration" = "खाद सांद्रता";
+"Nitrogen :" = "नाइट्रोजन :";
+"Phosphorus :" = "फास्फोरस :";
+"Potassium :" = "पोटैशियम :";
+"Value is reset!" = "अनुपात रीसेट है!";
+"Sum of N, P, K cannot be more than 100" = "एन, पी, के का योग 100 से अधिक नहीं हो सकता है";
+"gm/" = "ग्राम/";
+"oz" = "आउंस";
+
+//My Notes view
+"Tap on + to add new Notes" = "नए टिप्पणियाँ जोड़ने के लिए + पर टैप करें";
+"Add new Notes to My Notes" = "मेरे टिप्पणियाँ में नई टिप्पणी जोड़ें";
+"New Tank Syndrome" = "नया टैंक सिंड्रोम";
+"The number one reason" = "शुरुआती एक्वारिस्ट के बीच मछली की मौतों का एक कारण उनके मछलीघर के अंदर नाइट्रिफाइंग बैक्टीरिया की अनुपस्थिति है। मछली अपने अपशिष्ट और बचे हुए भोजन के माध्यम से अमोनिया को पानी में पेश करती हैं। अमोनिया विषाक्त है और यह नए एक्वैरियम में मछलियों की मृत्यु की ओर जाता है। यदि उपस्थित हो तो नाइट्रिफाइंग बैक्टीरिया, अमोनिया को नाइट्राइट्स में और नाइट्राइट्स को नाइट्रेट्स में परिवर्तित करता है। नाइट्रेट्स उतने जहरीले नहीं होते जितने अमोनिया और मछली नाइट्रेट के मध्यम स्तर में जीवित रह सकते हैं।\nनाइट्रिफाइंग बैक्टीरिया एक्वेरियम के पानी में अपने आप बन जाते हैं और वे एक्वेरियम और उसके फिल्टर में सभी सतहों पर कॉलोनियां बनाते हैं। याद रखने वाली महत्वपूर्ण बात यह है कि मछली के भार का समर्थन करने के लिए पर्याप्त मात्रा में बैक्टीरिया को नाइट्रिफाइंग करने में कम से कम 3-4 सप्ताह लगते हैं। इस प्रक्रिया को शुरू में एक पुराने फिल्टर को चलाकर किकस्टार्ट किया जा सकता है, जिसमें एक सप्ताह के लिए नए एक्वेरियम पर नाइट्राइजिंग बैक्टीरिया होंगे। इससे नाइट्रोजन चक्र को गति मिलेगी और मछली को मछलीघर में सुरक्षित रूप से पेश किया जा सकता है।";
+
+//Add new notes
+"Add Notes" = "टिप्पणियाँ जोड़ें";
+"LabelEmptyTitle" = "लेबल खाली है!";
+"LabelEmptyMsg" = "कृपया लेबल दर्ज करें";
+"NoteEmptyTitle" = "नोट खाली है!";
+"NoteEmptyMsg" = "कृपया नोट दर्ज करें";
+"Label" = "लेबल";
+"Text" = "टेक्स्ट";
+"eg Angelfish"  = "e.g.: मछली अवलोकन";
+
+//Fish Details
+"Genus: " = "जाति: ";
+"Maximum size: " = "अधिकतम आकार: ";
+"inches" = "इंच";
+"Reproduction: " = "प्रजनन: ";
+"Temperament: " = "स्वभाव: ";
+"Care: " = "ध्यान: ";
+"Diet: " = "आहार: ";
+"Water temperature: " = "पानि का तापमान: ";
+"°Celsius" = "°सेल्सीयस";
+"Water pH: " = "पानी का पीएच: ";
+"Minimum aquarium volume: " = "न्यूनतम एक्वेरियम आयतन: ";
+"Planted aquarium safe: " = "एक्वेरियम पौधे सुरक्षित: ";
+"Fish details" = "मछली का विवरण";
+
+//Shrimp details
+"Shrimp details" = "श्रिम्प का विवरण";
+
+//Plant details
+"Type: " = "प्रकार: ";
+"Origin: " = "मूल: ";
+"Maximum height: " = "ज्यादा से ज्यादा ऊंचाई: ";
+"Growth rate: " = "वृद्धि दर: ";
+"Light requirement: " = "प्रकाश की आवश्यकता: ";
+"External CO2 required: " = "बाहरी CO2 आवश्यक: ";
+"Plant details" = "पौधों का विवरण";
+
+//Settings View
+"In-App Purchases" = "इन-ऐप खरीदारी";
+"Plants pack" = "पौधों का पैक";
+"Unable to connect" = "कनेक्ट करने में असमर्थ";
+"Shrimps pack" = "श्रिम्प का पैक";
+"Purchased" = "खरीदा";
+"Buy for" = "खरीदें ";
+"Set notifications" = "सूचनाएं सेट करें";
+"Feedback" = "प्रतिपुष्टि";
+"Twitter" = "ट्विटर";
+"Email" = "ईमेल";
+"Share with friends" = "दोस्तों के साथ बांटें";
+"Rate Aquarium Life" = "रेटिंग दें एक्वेरियम लाईफ";
+"About" = "के बारे में";
+"Made with love by Sahil Satralkar" = "साहिल सतरालकर द्वारा प्यार से बनाया गया";
+"Additional information" = "अतिरिक्त जानकारी";
+"Restore Purchases" = "खरीदारी पुनर्स्थापित करे";
+"Select language" = "भाषा का चयन करें";
+
+//Notifications view
+"Notification list" = "सूचनाएं सूची";
+"Tap on + to add Notification" = "नई सूचनाएं जोड़ने के लिए + पर टैप करें \nसूचनाएं पंक्ति को हटाने के लिए दाईं से बाईं ओर स्वाइप करें";
+"Notifications disabled!" = "सूचनाएं अक्षम की गईं!";
+"Please Turn on Notifications" = "कृपया सूचनाएं चालू करें";
+"Permission not granted!" = "अनुमति नहीं दी गई!";
+"Please enable notifications from iPhone Settings" = "कृपया आईफ़ोन सेटिंग्स से सूचनाएं सक्षम करें > सूचनाएं > एक्वेरियम लाईफ > सूचनाओं को अनुमति दें";
+"Add new Notification" = "नई सूचनाएं जोड़ें";
+"Notifications" = "सूचनाएं";
+
+//Add notification
+"Never" = "कभी नहीँ";
+"Everyday" = "रोज";
+"Every Monday" = "हर सोमवार";
+"Every Tuesday" = "हर मंगलवार";
+"Every Wednesday" = "हर बुधवार";
+"Every Thursday" = "हर गुरूवार";
+"Every Friday" = "हर शुक्रवार";
+"Every Saturday" = "हर शनिवार";
+"Every Sunday" = "हर रविवार";
+"Time" = "समय";
+"Label name" = "लेबल का नाम";
+"Label is empty!" = "लेबल खाली है!";
+"Please provide label name for notification" = "कृपया सूचनाएं के लिए लेबल नाम प्रदान करें";
+"Add Notification" = "सूचनाएं जोड़ें";
+ 

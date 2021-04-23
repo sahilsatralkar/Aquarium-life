@@ -1,0 +1,263 @@
+/* 
+  Localizable.strings
+  Aquarium life
+
+  Created by Sahil Satralkar on 26/02/21.
+  
+*/
+//Parent view
+"MyAquariums" = "My Aquariums";
+"CareSheets"  = "Care Sheets";
+"Calculators" = "Calculators";
+"MyNotes"     = "My Notes";
+"Settings"    = "Settings";
+
+//My tank view
+"LitersVolume" = "liters volume";
+"Filtration"    = "filtration";
+"Substrate"     = "substrate";
+"WithHeating"   = "With heating";
+"WithoutHeating" = "Without heating";
+"TapOnPlus"     = "Tap on + to add new Aquarium";
+"AddNewAquarium" = "Add new aquarium to My Aquariums";
+
+//Add new aquarium
+"DismissButton" = "Dismiss";
+"AddAquarium"   = "Add Aquarium";
+"SaveButton"    = "Save";
+"Name"          = "Name";
+"egGreenMountain" = "e.g. Green mountains aquarium";
+"Dimensions"    = "Dimensions";
+"Centimeters"   = "Centimeters";
+"Inches"        = "Inches";
+"Length"        = "Length";
+"Width"         = "Width";
+"Height"        = "Height";
+"Internal"      = "Internal";
+"Overhead"      = "Overhead";
+"Canister"      = "Canister";
+"Sump"          = "Sump";
+"Heater"        = "Heater";
+"Yes"           = "Yes";
+"No"            = "No";
+"Sand"          = "Sand";
+"Gravel"        = "Gravel";
+"Soil"          = "Soil";
+"Dirted"        = "Dirted";
+"Length="        = "Length =";
+"Width="         = "Width =";
+"Height="        = "Height =";
+"NameEmptyAlertTitle" = "Name is empty!";
+"NameEmptyAlertMsg" = "Please enter aquarium name";
+"NameLengthAlertTitle" = "Length is empty!";
+"NameLengthAlertMsg" = "Please enter aquarium length";
+"NameWidthAlertTitle" = "Width is empty!";
+"NameWidthAlertMsg" = "Please enter aquarium width";
+"NameHeightAlertTitle" = "Height is empty!";
+"NameHeightAlertMsg" = "Please enter aquarium height";
+"OKButton" = "OK";
+"0.0 centimeters" = "0.0 centimeters";
+"0.0 inches" = "0.0 inches";
+"0.0 liters" = "0.0 liters";
+"0.0 US gallons" = "0.0 US gallons";
+"0.0 UK gallons" = "0.0 UK gallons";
+
+//Aquarium details view
+"Fish"      = "Fish";
+"Shrimps"   = "Shrimps";
+"Plants"    = "Plants";
+"AquariumLife"  = "Aquarium Life";
+"LogBook"       = "Log book";
+"LogRecords"    = "Log records";
+"TapToSeeDetails"   = "Tap to see details";
+
+//Add Fish to Aquarium
+"FishInAquarium" = "Fish in aquarium";
+"TapToAddFishAndSwipe" = "Tap on + to add new Fish \nSwipe from right to left to delete fish row";
+"AddNewFishAccess"      = "Add new fish to Aquarium";
+"Nos"   = "nos";
+
+//Select Fish
+"SelectionOfFish"   = "Selection of Fish";
+"AddFish"   = "Add Fish";
+"Selection:"    = "Selection :";
+"Quantity:" = "Quantity : ";
+
+//Add Shrimp to Aquarium
+"ShrimpInAquarium"          = "Shrimps in aquarium";
+"TapToAddShrimpAndSwipe"    = "Tap on + to add new Shrimps \nSwipe from right to left to delete shrimp row";
+"UnlockShrimpsAlertTitle"   = "Unlock Shrimps!";
+"UnlockShrimpsAlertMsg"     = "Add Shrimps pack from Settings to proceed";
+"AddShrimpAccess"           = "Add new shrimps to Aquarium";
+
+//Select Shrimp
+"SelectionOfShrimp"   = "Selection of Shrimp";
+"AddShrimp"   = "Add Shrimp";
+
+//Add Plants to Aquarium
+"PlantsInAquarium"          = "Plants in aquarium";
+"TapToAddPlantsAndSwipe"    = "Tap on + to add new Plants \nSwipe from right to left to delete plant row";
+"UnlockPlantsAlertTitle"   = "Unlock Plants!";
+"UnlockPlantsAlertMsg"     = "Add Plants pack from Settings to proceed";
+"AddPlantAccess"           = "Add new plants to Aquarium";
+
+//Select Shrimp
+"SelectionOfPlant"   = "Selection of Plant";
+"AddPlant"           = "Add Plant";
+
+//Add Logs to Aquarium
+"TapToAddLogsAndSwipe"  = "Tap on + to add Logs \nSwipe from right to left to delete log record";
+"AddLogAccess"  = "Add new log to Aquarium";
+
+//Add new logs
+"AddNewLog"         = "Add New Log";
+"Temperature="      = "Temperature =";
+"pH="               = "pH =";
+"Ammonia="          = "Ammonia =";
+"Nitrite="          = "Nitrite =";
+"Nitrate="          = "Nitrate =";
+"ppm"               = "ppm";
+
+//Calculator view
+"Selection"         = "Selection";
+"Volume calculator" = "Volume calculator";
+"Substrate calculator" = "Substrate calculator";
+"Water change calculator" = "Water change calculator";
+"Carbon dioxide calculator" = "Carbon dioxide calculator";
+"NPK fertiliser calculator" = "NPK fertiliser calculator";
+
+//Care Sheets view
+"PresentSelection" = "Present selection";
+"LISTOFFISH" = "List of Fish";
+"LISTOFSHRIMPS" = "List of Shrimps";
+"LISTOFPLANTS" = "List of Plants";
+
+//Volume calculator
+"liters" = "Liters";
+"US gallons" = "US gallons";
+"UK gallons" = "UK gallons";
+"Volume" = "Volume";
+
+//Substrate calculator
+"Front depth" = "Front depth";
+"Rear depth" = "Rear depth";
+"Substrate Volume" = "Substrate Volume";
+
+//Water change calculator
+"Fresh water" = "Fresh water";
+"Aquarium Volume =" = "Aquarium Volume =";
+"Water change =" = "Water change =";
+
+//Co2 calculator view
+"Select pH and dKH values" = "Select pH and dKH values";
+"pH value" = "pH value";
+"dKH value" = "dKH value";
+"Dissolved Carbon dioxide" = "Dissolved Carbon dioxide";
+"parts per million (ppm)" = "parts per million (ppm)";
+
+//NPK calculator view
+"NPK fertiliser ratio" = "NPK fertiliser ratio";
+"Tank volume =" = "Tank volume =";
+"N :" = "N :";
+"P :" = "P :";
+"K :" = "K :";
+"Fertiliser Weight =" = "Fertiliser Weight =";
+"Fertiliser concentration" = "Fertiliser concentration";
+"Nitrogen :" = "Nitrogen :";
+"Phosphorus :" = "Phosphorus :";
+"Potassium :" = "Potassium :";
+"Value is reset!" = "Value is reset!";
+"Sum of N, P, K cannot be more than 100" = "Sum of N, P, K cannot be more than 100";
+"gm/" = "gm/";
+"oz" = "oz";
+
+//My Notes view
+"Tap on + to add new Notes" = "Tap on + to add new Notes";
+"Add new Notes to My Notes" = "Add new Notes to My Notes";
+"New Tank Syndrome" = "New Tank Syndrome";
+"The number one reason" = "The number one reason for fish deaths among beginner aquarists is the absence of nitrifying bacteria inside their aquarium. Fish introduce Ammonia into the water through their waste and leftover food. Ammonia is toxic and it leads to death of fish in new aquariums.\nThe nitrifying bacteria if present, converts Ammonia into Nitrites and further Nitrites into Nitrates. Nitrates are not as toxic as Ammonia and fish can survive in moderate levels of Nitrates.\nThe nitrifying bacteria are formed automatically in the aquarium water and they form colonies on all surfaces in the aquarium and its filter. The key thing to remember is that it takes at least 3-4 weeks for nitrifying bacteria to form in sufficient quantity to support the fish load. This process can be kickstarted by initially running an old filter, which would contain nitrifying bacteria, on a new aquarium for a week. This will speed up the nitrogen cycle and fish can be safely introduced incrementally in the aquarium.";
+
+
+//Add new notes
+"Add Notes" = "Add Notes";
+"LabelEmptyTitle" = "Label is empty!";
+"LabelEmptyMsg" = "Please enter Label";
+"NoteEmptyTitle" = "Note is empty!";
+"NoteEmptyMsg" = "Please enter Notes";
+"Label" = "Label";
+"Text" = "Text";
+"eg Angelfish" = "eg: Angelfish observations";
+
+
+//Fish Details
+"Genus: " = "Genus: ";
+"Maximum size: " = "Maximum size: ";
+"inches" = "inches";
+"Reproduction: " = "Reproduction: ";
+"Temperament: " = "Temperament: ";
+"Care: " = "Care: ";
+"Diet: " = "Diet: ";
+"Water temperature: " = "Water temperature: ";
+"°Celsius" = "°Celsius";
+"Water pH: " = "Water pH: ";
+"Minimum aquarium volume: " = "Minimum aquarium volume: ";
+"Planted aquarium safe: " = "Planted aquarium safe: ";
+"Fish details" = "Fish details";
+
+//Shrimp details
+"Shrimp details" = "Shrimp details";
+
+//Plant details
+"Type: " = "Type: ";
+"Origin: " = "Origin: ";
+"Maximum height: " = "Maximum height: ";
+"Growth rate: " = "Growth rate: ";
+"Light requirement: " = "Light requirement: ";
+"External CO2 required: " = "External CO2 required: ";
+"Plant details" = "Plant details";
+
+//Settings View
+"In-App Purchases" = "In-App Purchases";
+"Plants pack" = "Plants pack";
+"Unable to connect" = "Unable to connect";
+"Shrimps pack" = "Shrimps pack";
+"Purchased" = "Purchased";
+"Buy for" = "Buy for";
+"Set notifications" = "Set notifications";
+"Feedback" = "Feedback";
+"Twitter" = "Twitter";
+"Email" = "Email";
+"Share with friends" = "Share with friends";
+"Rate Aquarium Life" = "Rate Aquarium Life";
+"About" = "About";
+"Made with love by Sahil Satralkar" = "Made with love by Sahil Satralkar";
+"Additional information" = "Additional information";
+"Restore Purchases" = "Restore Purchases";
+"Select language" = "Select language";
+
+//Notifications view
+"Notification list" = "Notification list";
+"Tap on + to add Notification" = "Tap on + to add Notification\nSwipe from right to left to delete Notification";
+"Notifications disabled!" = "Notifications disabled!";
+"Please Turn on Notifications" = "Please Turn on Notifications";
+"Permission not granted!" = "Permission not granted!";
+"Please enable notifications from iPhone Settings" = "Please enable notifications from iPhone Settings > Notifications > Aquarium Life > Allow Notifications";
+"Add new Notification" = "Add new Notification";
+"Notifications" = "Notifications";
+
+//Add notification
+"Never" = "Never";
+"Everyday" = "Everyday";
+"Every Monday" = "Every Monday";
+"Every Tuesday" = "Every Tuesday";
+"Every Wednesday" = "Every Wednesday";
+"Every Thursday" = "Every Thursday";
+"Every Friday" = "Every Friday";
+"Every Saturday" = "Every Saturday";
+"Every Sunday" = "Every Sunday";
+"Time" = "Time";
+"Label name" = "Label name";
+"Label is empty!" = "Label is empty!";
+"Please provide label name for notification" = "Please provide label name for notification";
+"Add Notification" = "Add Notification";
+
