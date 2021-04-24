@@ -260,4 +260,10 @@
 "Label is empty!" = "लेबल खाली है!";
 "Please provide label name for notification" = "कृपया सूचनाएं के लिए लेबल नाम प्रदान करें";
 "Add Notification" = "सूचनाएं जोड़ें";
- 
+// v1.3
+"Every 2 weeks" = "हर 2 हफ्ते";
+"Every 3 weeks" = "हर 3 हफ्ते";
+"Every 4 weeks" = "हर 4 हफ्ते";
+"Every 60 days" = "हर 60 दिन";
+"Every 90 days" = "हर 90 दिन";
+//

@@ -260,4 +260,11 @@
 "Label is empty!" = "Label is empty!";
 "Please provide label name for notification" = "Please provide label name for notification";
 "Add Notification" = "Add Notification";
+// v1.3
+"Every 2 weeks" = "Every 2 weeks";
+"Every 3 weeks" = "Every 3 weeks";
+"Every 4 weeks" = "Every 4 weeks";
+"Every 60 days" = "Every 60 days";
+"Every 90 days" = "Every 90 days";
+//
 
