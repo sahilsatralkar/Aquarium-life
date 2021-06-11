@@ -9,6 +9,15 @@ import Foundation
 
 struct Constants {
     
+    // v.1.4
+    struct QuickActions {
+        
+        static let calculators = "com.sahil.satralkar.AquariumLife.calculators"
+        static let careSheets = "com.sahil.satralkar.AquariumLife.CareSheets"
+        static let myNotes = "com.sahil.satralkar.AquariumLife.MyNotes"
+    }
+    //
+    
     //v1.3
     struct TimeInSecs {
         

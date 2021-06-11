@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>Aquarium Life</string>
+	<string>Aquarium</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -22,6 +22,8 @@
 	<string>$(CURRENT_PROJECT_VERSION)</string>
 	<key>ITSAppUsesNonExemptEncryption</key>
 	<false/>
+	<key>LSHasLocalizedDisplayName</key>
+	<true/>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>UIApplicationSceneManifest</key>
@@ -41,6 +43,33 @@
 			</array>
 		</dict>
 	</dict>
+	<key>UIApplicationShortcutItems</key>
+	<array>
+		<dict>
+			<key>UIApplicationShortcutItemIconSymbolName</key>
+			<string>plus.slash.minus</string>
+			<key>UIApplicationShortcutItemTitle</key>
+			<string>Calculators</string>
+			<key>UIApplicationShortcutItemType</key>
+			<string>com.sahil.satralkar.AquariumLife.calculators</string>
+		</dict>
+        <dict>
+            <key>UIApplicationShortcutItemIconSymbolName</key>
+            <string>heart.fill</string>
+            <key>UIApplicationShortcutItemTitle</key>
+            <string>Care Sheets</string>
+            <key>UIApplicationShortcutItemType</key>
+            <string>com.sahil.satralkar.AquariumLife.CareSheets</string>
+        </dict>
+        <dict>
+            <key>UIApplicationShortcutItemIconSymbolName</key>
+            <string>note.text</string>
+            <key>UIApplicationShortcutItemTitle</key>
+            <string>My Notes</string>
+            <key>UIApplicationShortcutItemType</key>
+            <string>com.sahil.satralkar.AquariumLife.MyNotes</string>
+        </dict>
+	</array>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
 	<key>UILaunchStoryboardName</key>

@@ -65,6 +65,9 @@ enum TemperatureUnits: String, CaseIterable {
 
 struct ParentView: View {
     
+    // v.1.4
+    @EnvironmentObject var selectedTabEnv: SelectedTab
+    //
     //IAP product ID's
     let productIDs = [
             //Use your product IDs
@@ -75,34 +78,50 @@ struct ParentView: View {
     @StateObject var storeManager = StoreManager()
     
     var body: some View {
-        TabView {
+        // v.1.4
+        TabView (selection: $selectedTabEnv.tabNumber){
+        //
             MyTankView()
                 .tabItem {
                     Image(systemName: "cube")
                     Text(LocalizedStringKey("MyAquariums"))
                 }
+                // v.1.4
+                .tag(1)
+                //
             
             LiveStockView()
                 .tabItem {
                     Image(systemName: "heart.fill")
                     Text(LocalizedStringKey("CareSheets"))
                 }
-            
+                // v.1.4
+                .tag(2)
+                //
             CalculatorView()
                 .tabItem {
                     Image(systemName: "plus.slash.minus")
                     Text(LocalizedStringKey("Calculators"))
                 }
+                // v.1.4
+                .tag(3)
+                //
             NotesView()
                 .tabItem {
                     Image(systemName: "note.text")
                     Text(LocalizedStringKey("MyNotes"))
                 }
+                // v.1.4
+                .tag(4)
+                //
             SettingsView(storeManager: self.storeManager)
                 .tabItem {
                     Image(systemName: "gear")
                     Text(("Settings"))
                 }
+                // v.1.4
+                .tag(5)
+                //
                 .background(Color(.blue))
         }
         .onAppear(perform:{

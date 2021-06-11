@@ -46,6 +46,7 @@
 		1C5111A52576CD74008D7698 /* LiveStockPlantDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5111A42576CD74008D7698 /* LiveStockPlantDetailView.swift */; };
 		1C56020125BD794C00C67F0A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C56020025BD794C00C67F0A /* Constants.swift */; };
 		1C59EADF259DCB5000AA5B1A /* AddAquariumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C59EADE259DCB5000AA5B1A /* AddAquariumView.swift */; };
+		1C5BD17C267272FC00AA3BEF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1C5BD17E267272FC00AA3BEF /* InfoPlist.strings */; };
 		1C814296256E487500714682 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C814295256E487500714682 /* AppDelegate.swift */; };
 		1C814298256E487500714682 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C814297256E487500714682 /* SceneDelegate.swift */; };
 		1C81429C256E487A00714682 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C81429B256E487A00714682 /* Assets.xcassets */; };
@@ -108,6 +109,8 @@
 		1C5111A42576CD74008D7698 /* LiveStockPlantDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveStockPlantDetailView.swift; sourceTree = "<group>"; };
 		1C56020025BD794C00C67F0A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		1C59EADE259DCB5000AA5B1A /* AddAquariumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAquariumView.swift; sourceTree = "<group>"; };
+		1C5BD17D267272FC00AA3BEF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1C5BD17F2672730300AA3BEF /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1C814292256E487500714682 /* Aquarium life.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Aquarium life.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C814295256E487500714682 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1C814297256E487500714682 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -187,6 +190,7 @@
 			isa = PBXGroup;
 			children = (
 				1C32B90825E948E90096A3D1 /* Localizable.strings */,
+				1C5BD17E267272FC00AA3BEF /* InfoPlist.strings */,
 				1C814295256E487500714682 /* AppDelegate.swift */,
 				1C814297256E487500714682 /* SceneDelegate.swift */,
 				1C56020025BD794C00C67F0A /* Constants.swift */,
@@ -308,6 +312,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C8142A2256E487A00714682 /* LaunchScreen.storyboard in Resources */,
+				1C5BD17C267272FC00AA3BEF /* InfoPlist.strings in Resources */,
 				1C0DFD7425EDA9D3004954A1 /* plant.json in Resources */,
 				1C81429F256E487A00714682 /* Preview Assets.xcassets in Resources */,
 				1C32B90625E948E90096A3D1 /* Localizable.strings in Resources */,
@@ -401,6 +406,15 @@
 				1C32B90A25E948FA0096A3D1 /* hi */,
 			);
 			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		1C5BD17E267272FC00AA3BEF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C5BD17D267272FC00AA3BEF /* en */,
+				1C5BD17F2672730300AA3BEF /* hi */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 		1C8142A0256E487A00714682 /* LaunchScreen.storyboard */ = {
@@ -548,7 +562,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Aquarium life/Preview Content\"";
 				DEVELOPMENT_TEAM = HP6WDMAW63;
 				ENABLE_PREVIEWS = YES;
@@ -558,7 +572,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.3;
+				MARKETING_VERSION = 1.4;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sahil.satralkar.AquariumLife;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -572,7 +586,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Aquarium life/Preview Content\"";
 				DEVELOPMENT_TEAM = HP6WDMAW63;
 				ENABLE_PREVIEWS = YES;
@@ -582,7 +596,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.3;
+				MARKETING_VERSION = 1.4;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sahil.satralkar.AquariumLife;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;

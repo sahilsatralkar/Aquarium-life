@@ -25,8 +25,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Create the SwiftUI view that provides the window contents.
         
         //Modified to ParentView
-        let contentView = ParentView().environment(\.managedObjectContext, context)
-
+        // v.1.4
+        let contentView = ParentView().environment(\.managedObjectContext, context).environmentObject(selectedTabObj)
+        //
         // Use a UIHostingController as window root view controller.
         if let windowScene = scene as? UIWindowScene {
             let window = UIWindow(windowScene: windowScene)
@@ -93,7 +94,27 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         (UIApplication.shared.delegate as? AppDelegate)?.saveContext()
         
     }
-
+    
+    // v.1.4
+    func windowScene(_ windowScene: UIWindowScene, performActionFor shortcutItem: UIApplicationShortcutItem, completionHandler: @escaping (Bool) -> Void) {
+        
+        //Quick action for Calculators
+        shortcutItemToProcess = shortcutItem
+        if shortcutItemToProcess?.type == Constants.QuickActions.calculators
+        {
+            selectedTabObj.tabNumber = 3
+        }
+        else if shortcutItemToProcess?.type == Constants.QuickActions.careSheets
+        {
+            selectedTabObj.tabNumber = 2
+        }
+        else if shortcutItemToProcess?.type == Constants.QuickActions.myNotes
+        {
+            selectedTabObj.tabNumber = 4
+        }
+        
+    }
+    //
 
 }
 

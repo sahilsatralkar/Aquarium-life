@@ -26,8 +26,9 @@ struct CalculatorWaterChangeView: View {
     var body: some View {
         Form
         {
-            Section
-            {
+            // v.1.4
+            Section(header: Text(LocalizedStringKey("Water change percentage"))){
+            //
                 Picker("Units", selection: $unitSelected) {
                     ForEach(0 ..< units.count) {
                         Text(LocalizedStringKey(self.units[$0]))

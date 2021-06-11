@@ -1,0 +1,13 @@
+/* 
+  InfoPlist.strings
+  Aquarium life
+
+  Created by Sahil Satralkar on 10/06/21.
+  
+*/
+
+// v.1.4
+"Calculators" = "कैलकुलेटर";
+"CFBundleDisplayName" = "एक्वेरियम लाइफ";
+"CFBundleName" = "एक्वेरियम लाइफ";
+//

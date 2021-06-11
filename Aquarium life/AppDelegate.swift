@@ -8,20 +8,23 @@
 import UIKit
 import CoreData
 
+// v.1.4
+//Declaration outside class
+var selectedTabObj = SelectedTab()
+var shortcutItemToProcess: UIApplicationShortcutItem?
+
+//Class to handle the quick action selection
+class SelectedTab : ObservableObject {
+    @Published var tabNumber : Int = 1
+    
+}
+//
+
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        
-        if let shortcutItem = launchOptions?[UIApplication.LaunchOptionsKey.shortcutItem] as? UIApplicationShortcutItem {
-                if shortcutItem.type == "com.sahil.satralkar.Aquarium-life.Share-App" {
-                    // shortcut was triggered!
-                    print("Inside Shortcut Share App")
-                }
-            }
         
         return true
     }
@@ -31,6 +34,25 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
         // Called when a new scene session is being created.
         // Use this method to select a configuration to create the new scene with.
+        
+        // v.1.4
+        //Quick action for Calculators
+        if let shortcutItem = options.shortcutItem {
+            shortcutItemToProcess = shortcutItem
+        }
+        if shortcutItemToProcess?.type == Constants.QuickActions.calculators
+        {
+            selectedTabObj.tabNumber = 3
+        }
+        else if shortcutItemToProcess?.type == Constants.QuickActions.careSheets
+        {
+            selectedTabObj.tabNumber = 2
+        }
+        else if shortcutItemToProcess?.type == Constants.QuickActions.myNotes
+        {
+            selectedTabObj.tabNumber = 4
+        }
+        //
         return UISceneConfiguration(name: "Default Configuration", sessionRole: connectingSceneSession.role)
     }
 
