@@ -47,6 +47,7 @@
 		1C56020125BD794C00C67F0A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C56020025BD794C00C67F0A /* Constants.swift */; };
 		1C59EADF259DCB5000AA5B1A /* AddAquariumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C59EADE259DCB5000AA5B1A /* AddAquariumView.swift */; };
 		1C5BD17C267272FC00AA3BEF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1C5BD17E267272FC00AA3BEF /* InfoPlist.strings */; };
+		1C5BD1822673A22500AA3BEF /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C5BD1812673A22500AA3BEF /* CloudKit.framework */; };
 		1C814296256E487500714682 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C814295256E487500714682 /* AppDelegate.swift */; };
 		1C814298256E487500714682 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C814297256E487500714682 /* SceneDelegate.swift */; };
 		1C81429C256E487A00714682 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C81429B256E487A00714682 /* Assets.xcassets */; };
@@ -111,6 +112,8 @@
 		1C59EADE259DCB5000AA5B1A /* AddAquariumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAquariumView.swift; sourceTree = "<group>"; };
 		1C5BD17D267272FC00AA3BEF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1C5BD17F2672730300AA3BEF /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1C5BD1802673A21600AA3BEF /* Aquarium life.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Aquarium life.entitlements"; sourceTree = "<group>"; };
+		1C5BD1812673A22500AA3BEF /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		1C814292256E487500714682 /* Aquarium life.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Aquarium life.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C814295256E487500714682 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1C814297256E487500714682 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C28E37925C43BA400657D98 /* StoreKit.framework in Frameworks */,
+				1C5BD1822673A22500AA3BEF /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,6 +149,7 @@
 		1C28E37725C43BA400657D98 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1C5BD1812673A22500AA3BEF /* CloudKit.framework */,
 				1C28E37825C43BA400657D98 /* StoreKit.framework */,
 			);
 			name = Frameworks;
@@ -189,6 +194,7 @@
 		1C814294256E487500714682 /* Aquarium life */ = {
 			isa = PBXGroup;
 			children = (
+				1C5BD1802673A21600AA3BEF /* Aquarium life.entitlements */,
 				1C32B90825E948E90096A3D1 /* Localizable.strings */,
 				1C5BD17E267272FC00AA3BEF /* InfoPlist.strings */,
 				1C814295256E487500714682 /* AppDelegate.swift */,
@@ -561,6 +567,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Aquarium life/Aquarium life.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Aquarium life/Preview Content\"";
@@ -585,6 +592,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Aquarium life/Aquarium life.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Aquarium life/Preview Content\"";
