@@ -67,6 +67,9 @@
 		1CAEEBE926BE757A00227C83 /* AquariumLifeWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAEEBE826BE757A00227C83 /* AquariumLifeWidget.swift */; };
 		1CAEEBEB26BE758300227C83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CAEEBEA26BE758300227C83 /* Assets.xcassets */; };
 		1CAEEBEF26BE758300227C83 /* AquariumLifeWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1CAEEBE226BE757A00227C83 /* AquariumLifeWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1CAEEBFB26BE762900227C83 /* Intents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CAEEBFA26BE762900227C83 /* Intents.framework */; };
+		1CAEEBFE26BE762900227C83 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAEEBFD26BE762900227C83 /* IntentHandler.swift */; };
+		1CAEEC0226BE762900227C83 /* AquariumLifeIntents.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1CAEEBF926BE762900227C83 /* AquariumLifeIntents.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		1CC6C0E025EA736400D91B1E /* fish.json in Resources */ = {isa = PBXBuildFile; fileRef = 1CC6C0E225EA736400D91B1E /* fish.json */; };
 		1CD66AAC25D506D400B8CEF3 /* NotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD66AAB25D506D400B8CEF3 /* NotesView.swift */; };
 		1CD66AB025D5106400B8CEF3 /* AddNotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD66AAF25D5106400B8CEF3 /* AddNotes.swift */; };
@@ -88,6 +91,13 @@
 			remoteGlobalIDString = 1CAEEBE126BE757A00227C83;
 			remoteInfo = AquariumLifeWidgetExtension;
 		};
+		1CAEEC0026BE762900227C83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C81428A256E487500714682 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CAEEBF826BE762900227C83;
+			remoteInfo = AquariumLifeIntents;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -98,6 +108,7 @@
 			dstSubfolderSpec = 13;
 			files = (
 				1CAEEBEF26BE758300227C83 /* AquariumLifeWidgetExtension.appex in Embed App Extensions */,
+				1CAEEC0226BE762900227C83 /* AquariumLifeIntents.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -178,6 +189,11 @@
 		1CAEEBEA26BE758300227C83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1CAEEBEC26BE758300227C83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1CAEEBF426BE75A000227C83 /* AquariumLifeWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AquariumLifeWidgetExtension.entitlements; sourceTree = "<group>"; };
+		1CAEEBF926BE762900227C83 /* AquariumLifeIntents.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = AquariumLifeIntents.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CAEEBFA26BE762900227C83 /* Intents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Intents.framework; path = System/Library/Frameworks/Intents.framework; sourceTree = SDKROOT; };
+		1CAEEBFD26BE762900227C83 /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		1CAEEBFF26BE762900227C83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CAEEC0626BE765D00227C83 /* AquariumLifeIntents.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AquariumLifeIntents.entitlements; sourceTree = "<group>"; };
 		1CC6C0E425EA736D00D91B1E /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = hi; path = hi.lproj/fish.json; sourceTree = "<group>"; };
 		1CD66AAB25D506D400B8CEF3 /* NotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesView.swift; sourceTree = "<group>"; };
 		1CD66AAF25D5106400B8CEF3 /* AddNotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNotes.swift; sourceTree = "<group>"; };
@@ -210,6 +226,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1CAEEBF626BE762900227C83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CAEEBFB26BE762900227C83 /* Intents.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -220,6 +244,7 @@
 				1C28E37825C43BA400657D98 /* StoreKit.framework */,
 				1CAEEBE326BE757A00227C83 /* WidgetKit.framework */,
 				1CAEEBE526BE757A00227C83 /* SwiftUI.framework */,
+				1CAEEBFA26BE762900227C83 /* Intents.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -250,6 +275,7 @@
 				1C814294256E487500714682 /* Aquarium life */,
 				1CAEEBD526BE74B200227C83 /* Aquarium lifeTests */,
 				1CAEEBE726BE757A00227C83 /* AquariumLifeWidget */,
+				1CAEEBFC26BE762900227C83 /* AquariumLifeIntents */,
 				1C814293256E487500714682 /* Products */,
 				1C28E37725C43BA400657D98 /* Frameworks */,
 			);
@@ -261,6 +287,7 @@
 				1C814292256E487500714682 /* Aquarium life.app */,
 				1CAEEBD426BE74B200227C83 /* Aquarium lifeTests.xctest */,
 				1CAEEBE226BE757A00227C83 /* AquariumLifeWidgetExtension.appex */,
+				1CAEEBF926BE762900227C83 /* AquariumLifeIntents.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -354,6 +381,16 @@
 			path = AquariumLifeWidget;
 			sourceTree = "<group>";
 		};
+		1CAEEBFC26BE762900227C83 /* AquariumLifeIntents */ = {
+			isa = PBXGroup;
+			children = (
+				1CAEEC0626BE765D00227C83 /* AquariumLifeIntents.entitlements */,
+				1CAEEBFD26BE762900227C83 /* IntentHandler.swift */,
+				1CAEEBFF26BE762900227C83 /* Info.plist */,
+			);
+			path = AquariumLifeIntents;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -370,6 +407,7 @@
 			);
 			dependencies = (
 				1CAEEBEE26BE758300227C83 /* PBXTargetDependency */,
+				1CAEEC0126BE762900227C83 /* PBXTargetDependency */,
 			);
 			name = "Aquarium life";
 			productName = "Aquarium life";
@@ -411,6 +449,23 @@
 			productReference = 1CAEEBE226BE757A00227C83 /* AquariumLifeWidgetExtension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
+		1CAEEBF826BE762900227C83 /* AquariumLifeIntents */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CAEEC0326BE762900227C83 /* Build configuration list for PBXNativeTarget "AquariumLifeIntents" */;
+			buildPhases = (
+				1CAEEBF526BE762900227C83 /* Sources */,
+				1CAEEBF626BE762900227C83 /* Frameworks */,
+				1CAEEBF726BE762900227C83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AquariumLifeIntents;
+			productName = AquariumLifeIntents;
+			productReference = 1CAEEBF926BE762900227C83 /* AquariumLifeIntents.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -428,6 +483,9 @@
 						TestTargetID = 1C814291256E487500714682;
 					};
 					1CAEEBE126BE757A00227C83 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					1CAEEBF826BE762900227C83 = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
 				};
@@ -449,6 +507,7 @@
 				1C814291256E487500714682 /* Aquarium life */,
 				1CAEEBD326BE74B200227C83 /* Aquarium lifeTests */,
 				1CAEEBE126BE757A00227C83 /* AquariumLifeWidgetExtension */,
+				1CAEEBF826BE762900227C83 /* AquariumLifeIntents */,
 			);
 		};
 /* End PBXProject section */
@@ -481,6 +540,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CAEEBEB26BE758300227C83 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CAEEBF726BE762900227C83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -558,6 +624,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1CAEEBF526BE762900227C83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CAEEBFE26BE762900227C83 /* IntentHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -570,6 +644,11 @@
 			isa = PBXTargetDependency;
 			target = 1CAEEBE126BE757A00227C83 /* AquariumLifeWidgetExtension */;
 			targetProxy = 1CAEEBED26BE758300227C83 /* PBXContainerItemProxy */;
+		};
+		1CAEEC0126BE762900227C83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CAEEBF826BE762900227C83 /* AquariumLifeIntents */;
+			targetProxy = 1CAEEC0026BE762900227C83 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -767,7 +846,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.4.1;
+				MARKETING_VERSION = 1.5;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sahil.satralkar.AquariumLife;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -793,7 +872,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.4.1;
+				MARKETING_VERSION = 1.5;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sahil.satralkar.AquariumLife;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -858,6 +937,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
+				MARKETING_VERSION = 1.5;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sahil.satralkar.AquariumLife.AquariumLifeWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -881,7 +961,52 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
+				MARKETING_VERSION = 1.5;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sahil.satralkar.AquariumLife.AquariumLifeWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1CAEEC0426BE762900227C83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = AquariumLifeIntents/AquariumLifeIntents.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HP6WDMAW63;
+				INFOPLIST_FILE = AquariumLifeIntents/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.5;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sahil.satralkar.AquariumLife.AquariumLifeIntents;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1CAEEC0526BE762900227C83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = AquariumLifeIntents/AquariumLifeIntents.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HP6WDMAW63;
+				INFOPLIST_FILE = AquariumLifeIntents/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.5;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sahil.satralkar.AquariumLife.AquariumLifeIntents;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -924,6 +1049,15 @@
 			buildConfigurations = (
 				1CAEEBF126BE758300227C83 /* Debug */,
 				1CAEEBF226BE758300227C83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CAEEC0326BE762900227C83 /* Build configuration list for PBXNativeTarget "AquariumLifeIntents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CAEEC0426BE762900227C83 /* Debug */,
+				1CAEEC0526BE762900227C83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
