@@ -86,8 +86,8 @@ struct ParentView: View {
                     Image(systemName: "cube")
                     Text(LocalizedStringKey("MyAquariums"))
                 }
-                // v.1.4
-                .tag(1)
+                // v.1.4.1
+                .tag(TabIdentifier.myAquariums)
                 //
             
             LiveStockView()
@@ -95,32 +95,32 @@ struct ParentView: View {
                     Image(systemName: "heart.fill")
                     Text(LocalizedStringKey("CareSheets"))
                 }
-                // v.1.4
-                .tag(2)
+                // v.1.4.1
+                .tag(TabIdentifier.careSheets)
                 //
             CalculatorView()
                 .tabItem {
                     Image(systemName: "plus.slash.minus")
                     Text(LocalizedStringKey("Calculators"))
                 }
-                // v.1.4
-                .tag(3)
+                // v.1.4.1
+                .tag(TabIdentifier.calculators)
                 //
             NotesView()
                 .tabItem {
                     Image(systemName: "note.text")
                     Text(LocalizedStringKey("MyNotes"))
                 }
-                // v.1.4
-                .tag(4)
+                // v.1.4.1
+                .tag(TabIdentifier.myNotes)
                 //
             SettingsView(storeManager: self.storeManager)
                 .tabItem {
                     Image(systemName: "gear")
                     Text(("Settings"))
                 }
-                // v.1.4
-                .tag(5)
+                // v.1.4.1
+                .tag(TabIdentifier.settings)
                 //
                 .background(Color(.blue))
         }

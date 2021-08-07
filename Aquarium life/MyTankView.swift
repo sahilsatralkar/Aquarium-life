@@ -115,6 +115,9 @@ struct MyTankView: View {
                 AddAquariumView()
             }
         }
+        //Fixed bug where row was remaining selected. v1.4.1- Start
+        .navigationViewStyle(StackNavigationViewStyle())
+        //v1.4.1- End
     }
     //Function to remove individual items
     func delete( at offsets : IndexSet) {

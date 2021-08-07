@@ -59,6 +59,8 @@
 		1C8142C0256E676B00714682 /* LiveStockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8142BF256E676B00714682 /* LiveStockView.swift */; };
 		1C8142C3256E677F00714682 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8142C2256E677F00714682 /* SettingsView.swift */; };
 		1C9F271525B9A49800171D3F /* AddNotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9F271425B9A49800171D3F /* AddNotificationView.swift */; };
+		1CAEEBCD26BE56EC00227C83 /* AquariumLife.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAEEBCC26BE56EC00227C83 /* AquariumLife.swift */; };
+		1CAEEBCF26BE57AE00227C83 /* StorageProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAEEBCE26BE57AE00227C83 /* StorageProvider.swift */; };
 		1CC6C0E025EA736400D91B1E /* fish.json in Resources */ = {isa = PBXBuildFile; fileRef = 1CC6C0E225EA736400D91B1E /* fish.json */; };
 		1CD66AAC25D506D400B8CEF3 /* NotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD66AAB25D506D400B8CEF3 /* NotesView.swift */; };
 		1CD66AB025D5106400B8CEF3 /* AddNotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD66AAF25D5106400B8CEF3 /* AddNotes.swift */; };
@@ -127,6 +129,8 @@
 		1C8142BF256E676B00714682 /* LiveStockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveStockView.swift; sourceTree = "<group>"; };
 		1C8142C2256E677F00714682 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		1C9F271425B9A49800171D3F /* AddNotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNotificationView.swift; sourceTree = "<group>"; };
+		1CAEEBCC26BE56EC00227C83 /* AquariumLife.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AquariumLife.swift; sourceTree = "<group>"; };
+		1CAEEBCE26BE57AE00227C83 /* StorageProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageProvider.swift; sourceTree = "<group>"; };
 		1CC6C0E425EA736D00D91B1E /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = hi; path = hi.lproj/fish.json; sourceTree = "<group>"; };
 		1CD66AAB25D506D400B8CEF3 /* NotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesView.swift; sourceTree = "<group>"; };
 		1CD66AAF25D5106400B8CEF3 /* AddNotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNotes.swift; sourceTree = "<group>"; };
@@ -196,8 +200,10 @@
 			children = (
 				1C5BD1802673A21600AA3BEF /* Aquarium life.entitlements */,
 				1C32B90825E948E90096A3D1 /* Localizable.strings */,
+				1CAEEBCC26BE56EC00227C83 /* AquariumLife.swift */,
 				1C5BD17E267272FC00AA3BEF /* InfoPlist.strings */,
 				1C814295256E487500714682 /* AppDelegate.swift */,
+				1CAEEBCE26BE57AE00227C83 /* StorageProvider.swift */,
 				1C814297256E487500714682 /* SceneDelegate.swift */,
 				1C56020025BD794C00C67F0A /* Constants.swift */,
 				1C28E37325C4281D00657D98 /* StoreManager.swift */,
@@ -351,6 +357,7 @@
 				1C4A5C5325AC7DB400539913 /* SelectPlant.swift in Sources */,
 				1C51115C2573D6AC008D7698 /* LiveStockFishDetailView.swift in Sources */,
 				1C814296256E487500714682 /* AppDelegate.swift in Sources */,
+				1CAEEBCF26BE57AE00227C83 /* StorageProvider.swift in Sources */,
 				1C42CA1A25C0A369002F5AC1 /* AquariumShrimpSelectedDetails.swift in Sources */,
 				1C814298256E487500714682 /* SceneDelegate.swift in Sources */,
 				1C5111662573F953008D7698 /* SearchBar.swift in Sources */,
@@ -370,6 +377,7 @@
 				1C0983B225B17EA900446081 /* LogBookDetailsView.swift in Sources */,
 				1C28E37425C4281D00657D98 /* StoreManager.swift in Sources */,
 				1C50DFE9257F9532003BCB78 /* CalculatorVolumeView.swift in Sources */,
+				1CAEEBCD26BE56EC00227C83 /* AquariumLife.swift in Sources */,
 				1C4A5C5025AC7D4000539913 /* SelectShrimp.swift in Sources */,
 				1C0983B525B17EF500446081 /* AddLogView.swift in Sources */,
 				1C5111A22576CD71008D7698 /* LiveStockShrimpDetailView.swift in Sources */,
@@ -579,7 +587,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.4;
+				MARKETING_VERSION = 1.4.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sahil.satralkar.AquariumLife;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -604,7 +612,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.4;
+				MARKETING_VERSION = 1.4.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sahil.satralkar.AquariumLife;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
