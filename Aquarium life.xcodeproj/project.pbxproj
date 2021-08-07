@@ -61,11 +61,22 @@
 		1C9F271525B9A49800171D3F /* AddNotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9F271425B9A49800171D3F /* AddNotificationView.swift */; };
 		1CAEEBCD26BE56EC00227C83 /* AquariumLife.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAEEBCC26BE56EC00227C83 /* AquariumLife.swift */; };
 		1CAEEBCF26BE57AE00227C83 /* StorageProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAEEBCE26BE57AE00227C83 /* StorageProvider.swift */; };
+		1CAEEBD726BE74B200227C83 /* Aquarium_lifeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAEEBD626BE74B200227C83 /* Aquarium_lifeTests.swift */; };
 		1CC6C0E025EA736400D91B1E /* fish.json in Resources */ = {isa = PBXBuildFile; fileRef = 1CC6C0E225EA736400D91B1E /* fish.json */; };
 		1CD66AAC25D506D400B8CEF3 /* NotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD66AAB25D506D400B8CEF3 /* NotesView.swift */; };
 		1CD66AB025D5106400B8CEF3 /* AddNotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD66AAF25D5106400B8CEF3 /* AddNotes.swift */; };
 		1CF0A8F025C8A636005992E3 /* AquariumLifeModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1CF0A8EE25C8A636005992E3 /* AquariumLifeModel.xcdatamodeld */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1CAEEBD926BE74B200227C83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C81428A256E487500714682 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C814291256E487500714682;
+			remoteInfo = "Aquarium life";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		1C0983B125B17EA900446081 /* LogBookDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogBookDetailsView.swift; sourceTree = "<group>"; };
@@ -131,6 +142,9 @@
 		1C9F271425B9A49800171D3F /* AddNotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNotificationView.swift; sourceTree = "<group>"; };
 		1CAEEBCC26BE56EC00227C83 /* AquariumLife.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AquariumLife.swift; sourceTree = "<group>"; };
 		1CAEEBCE26BE57AE00227C83 /* StorageProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageProvider.swift; sourceTree = "<group>"; };
+		1CAEEBD426BE74B200227C83 /* Aquarium lifeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Aquarium lifeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CAEEBD626BE74B200227C83 /* Aquarium_lifeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aquarium_lifeTests.swift; sourceTree = "<group>"; };
+		1CAEEBD826BE74B200227C83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1CC6C0E425EA736D00D91B1E /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = hi; path = hi.lproj/fish.json; sourceTree = "<group>"; };
 		1CD66AAB25D506D400B8CEF3 /* NotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesView.swift; sourceTree = "<group>"; };
 		1CD66AAF25D5106400B8CEF3 /* AddNotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNotes.swift; sourceTree = "<group>"; };
@@ -144,6 +158,13 @@
 			files = (
 				1C28E37925C43BA400657D98 /* StoreKit.framework in Frameworks */,
 				1C5BD1822673A22500AA3BEF /* CloudKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CAEEBD126BE74B200227C83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,6 +203,7 @@
 			isa = PBXGroup;
 			children = (
 				1C814294256E487500714682 /* Aquarium life */,
+				1CAEEBD526BE74B200227C83 /* Aquarium lifeTests */,
 				1C814293256E487500714682 /* Products */,
 				1C28E37725C43BA400657D98 /* Frameworks */,
 			);
@@ -191,6 +213,7 @@
 			isa = PBXGroup;
 			children = (
 				1C814292256E487500714682 /* Aquarium life.app */,
+				1CAEEBD426BE74B200227C83 /* Aquarium lifeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -265,6 +288,15 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		1CAEEBD526BE74B200227C83 /* Aquarium lifeTests */ = {
+			isa = PBXGroup;
+			children = (
+				1CAEEBD626BE74B200227C83 /* Aquarium_lifeTests.swift */,
+				1CAEEBD826BE74B200227C83 /* Info.plist */,
+			);
+			path = "Aquarium lifeTests";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -285,17 +317,39 @@
 			productReference = 1C814292256E487500714682 /* Aquarium life.app */;
 			productType = "com.apple.product-type.application";
 		};
+		1CAEEBD326BE74B200227C83 /* Aquarium lifeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CAEEBDD26BE74B200227C83 /* Build configuration list for PBXNativeTarget "Aquarium lifeTests" */;
+			buildPhases = (
+				1CAEEBD026BE74B200227C83 /* Sources */,
+				1CAEEBD126BE74B200227C83 /* Frameworks */,
+				1CAEEBD226BE74B200227C83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CAEEBDA26BE74B200227C83 /* PBXTargetDependency */,
+			);
+			name = "Aquarium lifeTests";
+			productName = "Aquarium lifeTests";
+			productReference = 1CAEEBD426BE74B200227C83 /* Aquarium lifeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		1C81428A256E487500714682 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1220;
+				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1220;
 				TargetAttributes = {
 					1C814291256E487500714682 = {
 						CreatedOnToolsVersion = 12.2;
+					};
+					1CAEEBD326BE74B200227C83 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 1C814291256E487500714682;
 					};
 				};
 			};
@@ -314,6 +368,7 @@
 			projectRoot = "";
 			targets = (
 				1C814291256E487500714682 /* Aquarium life */,
+				1CAEEBD326BE74B200227C83 /* Aquarium lifeTests */,
 			);
 		};
 /* End PBXProject section */
@@ -331,6 +386,13 @@
 				1C81429C256E487A00714682 /* Assets.xcassets in Resources */,
 				1C0DFD6F25EDA9BE004954A1 /* shrimp.json in Resources */,
 				1CC6C0E025EA736400D91B1E /* fish.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CAEEBD226BE74B200227C83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,7 +454,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1CAEEBD026BE74B200227C83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CAEEBD726BE74B200227C83 /* Aquarium_lifeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1CAEEBDA26BE74B200227C83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C814291256E487500714682 /* Aquarium life */;
+			targetProxy = 1CAEEBD926BE74B200227C83 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		1C0DFD7125EDA9BE004954A1 /* shrimp.json */ = {
@@ -620,6 +698,48 @@
 			};
 			name = Release;
 		};
+		1CAEEBDB26BE74B200227C83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HP6WDMAW63;
+				INFOPLIST_FILE = "Aquarium lifeTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sahil.satralkar.Aquarium-lifeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aquarium life.app/Aquarium life";
+			};
+			name = Debug;
+		};
+		1CAEEBDC26BE74B200227C83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HP6WDMAW63;
+				INFOPLIST_FILE = "Aquarium lifeTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sahil.satralkar.Aquarium-lifeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aquarium life.app/Aquarium life";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -637,6 +757,15 @@
 			buildConfigurations = (
 				1C8142A7256E487A00714682 /* Debug */,
 				1C8142A8256E487A00714682 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CAEEBDD26BE74B200227C83 /* Build configuration list for PBXNativeTarget "Aquarium lifeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CAEEBDB26BE74B200227C83 /* Debug */,
+				1CAEEBDC26BE74B200227C83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
