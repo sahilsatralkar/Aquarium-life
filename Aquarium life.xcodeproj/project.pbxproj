@@ -70,6 +70,7 @@
 		1CAEEBFB26BE762900227C83 /* Intents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CAEEBFA26BE762900227C83 /* Intents.framework */; };
 		1CAEEBFE26BE762900227C83 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAEEBFD26BE762900227C83 /* IntentHandler.swift */; };
 		1CAEEC0226BE762900227C83 /* AquariumLifeIntents.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1CAEEBF926BE762900227C83 /* AquariumLifeIntents.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1CAEEC0826BE76F500227C83 /* AquariumLifeIntents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 1CAEEC0726BE76F500227C83 /* AquariumLifeIntents.intentdefinition */; };
 		1CC6C0E025EA736400D91B1E /* fish.json in Resources */ = {isa = PBXBuildFile; fileRef = 1CC6C0E225EA736400D91B1E /* fish.json */; };
 		1CD66AAC25D506D400B8CEF3 /* NotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD66AAB25D506D400B8CEF3 /* NotesView.swift */; };
 		1CD66AB025D5106400B8CEF3 /* AddNotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD66AAF25D5106400B8CEF3 /* AddNotes.swift */; };
@@ -194,6 +195,7 @@
 		1CAEEBFD26BE762900227C83 /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
 		1CAEEBFF26BE762900227C83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1CAEEC0626BE765D00227C83 /* AquariumLifeIntents.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AquariumLifeIntents.entitlements; sourceTree = "<group>"; };
+		1CAEEC0726BE76F500227C83 /* AquariumLifeIntents.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = AquariumLifeIntents.intentdefinition; sourceTree = "<group>"; };
 		1CC6C0E425EA736D00D91B1E /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = hi; path = hi.lproj/fish.json; sourceTree = "<group>"; };
 		1CD66AAB25D506D400B8CEF3 /* NotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesView.swift; sourceTree = "<group>"; };
 		1CD66AAF25D5106400B8CEF3 /* AddNotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNotes.swift; sourceTree = "<group>"; };
@@ -377,6 +379,7 @@
 				1CAEEBE826BE757A00227C83 /* AquariumLifeWidget.swift */,
 				1CAEEBEA26BE758300227C83 /* Assets.xcassets */,
 				1CAEEBEC26BE758300227C83 /* Info.plist */,
+				1CAEEC0726BE76F500227C83 /* AquariumLifeIntents.intentdefinition */,
 			);
 			path = AquariumLifeWidget;
 			sourceTree = "<group>";
@@ -576,6 +579,7 @@
 				1CAEEBCF26BE57AE00227C83 /* StorageProvider.swift in Sources */,
 				1C42CA1A25C0A369002F5AC1 /* AquariumShrimpSelectedDetails.swift in Sources */,
 				1C814298256E487500714682 /* SceneDelegate.swift in Sources */,
+				1CAEEC0826BE76F500227C83 /* AquariumLifeIntents.intentdefinition in Sources */,
 				1C5111662573F953008D7698 /* SearchBar.swift in Sources */,
 				1C8142C3256E677F00714682 /* SettingsView.swift in Sources */,
 				1C4E1A1125838E7200081732 /* EmailHelper.swift in Sources */,
