@@ -176,6 +176,8 @@
 		1C5BD1802673A21600AA3BEF /* Aquarium life.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Aquarium life.entitlements"; sourceTree = "<group>"; };
 		1C5BD1812673A22500AA3BEF /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		1C754D0E26D7D21A008C4DD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; name = Base; path = Base.lproj/AquariumLifeIntents.intentdefinition; sourceTree = "<group>"; };
+		1C754D1726D7D744008C4DD2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/AquariumLifeIntents.strings; sourceTree = "<group>"; };
+		1C754D1926D7D745008C4DD2 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/AquariumLifeIntents.strings; sourceTree = "<group>"; };
 		1C814292256E487500714682 /* Aquarium life.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Aquarium life.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C814295256E487500714682 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1C814297256E487500714682 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -717,6 +719,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				1C754D0E26D7D21A008C4DD2 /* Base */,
+				1C754D1726D7D744008C4DD2 /* en */,
+				1C754D1926D7D745008C4DD2 /* hi */,
 			);
 			name = AquariumLifeIntents.intentdefinition;
 			sourceTree = "<group>";
