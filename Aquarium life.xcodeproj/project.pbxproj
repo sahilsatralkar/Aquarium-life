@@ -872,7 +872,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Aquarium life/Aquarium life.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "\"Aquarium life/Preview Content\"";
 				DEVELOPMENT_TEAM = HP6WDMAW63;
 				ENABLE_PREVIEWS = YES;
@@ -898,7 +898,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Aquarium life/Aquarium life.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "\"Aquarium life/Preview Content\"";
 				DEVELOPMENT_TEAM = HP6WDMAW63;
 				ENABLE_PREVIEWS = YES;
@@ -965,7 +965,7 @@
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
 				CODE_SIGN_ENTITLEMENTS = AquariumLifeWidgetExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = HP6WDMAW63;
 				INFOPLIST_FILE = AquariumLifeWidget/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
@@ -990,7 +990,7 @@
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
 				CODE_SIGN_ENTITLEMENTS = AquariumLifeWidgetExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = HP6WDMAW63;
 				INFOPLIST_FILE = AquariumLifeWidget/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
@@ -1013,7 +1013,7 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = AquariumLifeIntents/AquariumLifeIntents.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = HP6WDMAW63;
 				INFOPLIST_FILE = AquariumLifeIntents/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
@@ -1036,7 +1036,7 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = AquariumLifeIntents/AquariumLifeIntents.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = HP6WDMAW63;
 				INFOPLIST_FILE = AquariumLifeIntents/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
