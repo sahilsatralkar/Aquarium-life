@@ -46,12 +46,14 @@
 		1C5111A52576CD74008D7698 /* LiveStockPlantDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5111A42576CD74008D7698 /* LiveStockPlantDetailView.swift */; };
 		1C56020125BD794C00C67F0A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C56020025BD794C00C67F0A /* Constants.swift */; };
 		1C59EADF259DCB5000AA5B1A /* AddAquariumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C59EADE259DCB5000AA5B1A /* AddAquariumView.swift */; };
-		1C5A0AAE26BE7DA30016675D /* AquariumLifeIntents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 1CAEEC0726BE76F500227C83 /* AquariumLifeIntents.intentdefinition */; };
 		1C5BD17C267272FC00AA3BEF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1C5BD17E267272FC00AA3BEF /* InfoPlist.strings */; };
 		1C5BD1822673A22500AA3BEF /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C5BD1812673A22500AA3BEF /* CloudKit.framework */; };
 		1C754D0726D79649008C4DD2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1C32B90825E948E90096A3D1 /* Localizable.strings */; };
 		1C754D0826D79697008C4DD2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1C32B90825E948E90096A3D1 /* Localizable.strings */; };
 		1C754D0926D797E4008C4DD2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1C32B90825E948E90096A3D1 /* Localizable.strings */; };
+		1C754D0B26D7D21A008C4DD2 /* AquariumLifeIntents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 1C754D0F26D7D21A008C4DD2 /* AquariumLifeIntents.intentdefinition */; };
+		1C754D0C26D7D21A008C4DD2 /* AquariumLifeIntents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 1C754D0F26D7D21A008C4DD2 /* AquariumLifeIntents.intentdefinition */; };
+		1C754D0D26D7D21A008C4DD2 /* AquariumLifeIntents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 1C754D0F26D7D21A008C4DD2 /* AquariumLifeIntents.intentdefinition */; };
 		1C814296256E487500714682 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C814295256E487500714682 /* AppDelegate.swift */; };
 		1C814298256E487500714682 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C814297256E487500714682 /* SceneDelegate.swift */; };
 		1C81429C256E487A00714682 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C81429B256E487A00714682 /* Assets.xcassets */; };
@@ -62,7 +64,6 @@
 		1C8142BA256E674200714682 /* MyTankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8142B9256E674200714682 /* MyTankView.swift */; };
 		1C8142C0256E676B00714682 /* LiveStockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8142BF256E676B00714682 /* LiveStockView.swift */; };
 		1C8142C3256E677F00714682 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8142C2256E677F00714682 /* SettingsView.swift */; };
-		1C8E031B26BE795B0027BBE3 /* AquariumLifeIntents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 1CAEEC0726BE76F500227C83 /* AquariumLifeIntents.intentdefinition */; };
 		1C8E031C26BE79900027BBE3 /* AquariumLifeModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1CF0A8EE25C8A636005992E3 /* AquariumLifeModel.xcdatamodeld */; };
 		1C8E031D26BE79910027BBE3 /* AquariumLifeModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1CF0A8EE25C8A636005992E3 /* AquariumLifeModel.xcdatamodeld */; };
 		1C8E031E26BE79CA0027BBE3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C56020025BD794C00C67F0A /* Constants.swift */; };
@@ -80,7 +81,6 @@
 		1CAEEBFB26BE762900227C83 /* Intents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CAEEBFA26BE762900227C83 /* Intents.framework */; };
 		1CAEEBFE26BE762900227C83 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAEEBFD26BE762900227C83 /* IntentHandler.swift */; };
 		1CAEEC0226BE762900227C83 /* AquariumLifeIntents.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1CAEEBF926BE762900227C83 /* AquariumLifeIntents.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		1CAEEC0826BE76F500227C83 /* AquariumLifeIntents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 1CAEEC0726BE76F500227C83 /* AquariumLifeIntents.intentdefinition */; };
 		1CC6C0E025EA736400D91B1E /* fish.json in Resources */ = {isa = PBXBuildFile; fileRef = 1CC6C0E225EA736400D91B1E /* fish.json */; };
 		1CD66AAC25D506D400B8CEF3 /* NotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD66AAB25D506D400B8CEF3 /* NotesView.swift */; };
 		1CD66AB025D5106400B8CEF3 /* AddNotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD66AAF25D5106400B8CEF3 /* AddNotes.swift */; };
@@ -175,6 +175,7 @@
 		1C5BD17F2672730300AA3BEF /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1C5BD1802673A21600AA3BEF /* Aquarium life.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Aquarium life.entitlements"; sourceTree = "<group>"; };
 		1C5BD1812673A22500AA3BEF /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		1C754D0E26D7D21A008C4DD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; name = Base; path = Base.lproj/AquariumLifeIntents.intentdefinition; sourceTree = "<group>"; };
 		1C814292256E487500714682 /* Aquarium life.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Aquarium life.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C814295256E487500714682 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1C814297256E487500714682 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -205,7 +206,6 @@
 		1CAEEBFD26BE762900227C83 /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
 		1CAEEBFF26BE762900227C83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1CAEEC0626BE765D00227C83 /* AquariumLifeIntents.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AquariumLifeIntents.entitlements; sourceTree = "<group>"; };
-		1CAEEC0726BE76F500227C83 /* AquariumLifeIntents.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = AquariumLifeIntents.intentdefinition; sourceTree = "<group>"; };
 		1CC6C0E425EA736D00D91B1E /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = hi; path = hi.lproj/fish.json; sourceTree = "<group>"; };
 		1CD66AAB25D506D400B8CEF3 /* NotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesView.swift; sourceTree = "<group>"; };
 		1CD66AAF25D5106400B8CEF3 /* AddNotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNotes.swift; sourceTree = "<group>"; };
@@ -389,7 +389,7 @@
 				1CAEEBE826BE757A00227C83 /* AquariumLifeWidget.swift */,
 				1CAEEBEA26BE758300227C83 /* Assets.xcassets */,
 				1CAEEBEC26BE758300227C83 /* Info.plist */,
-				1CAEEC0726BE76F500227C83 /* AquariumLifeIntents.intentdefinition */,
+				1C754D0F26D7D21A008C4DD2 /* AquariumLifeIntents.intentdefinition */,
 			);
 			path = AquariumLifeWidget;
 			sourceTree = "<group>";
@@ -592,7 +592,7 @@
 				1CAEEBCF26BE57AE00227C83 /* StorageProvider.swift in Sources */,
 				1C42CA1A25C0A369002F5AC1 /* AquariumShrimpSelectedDetails.swift in Sources */,
 				1C814298256E487500714682 /* SceneDelegate.swift in Sources */,
-				1CAEEC0826BE76F500227C83 /* AquariumLifeIntents.intentdefinition in Sources */,
+				1C754D0B26D7D21A008C4DD2 /* AquariumLifeIntents.intentdefinition in Sources */,
 				1C5111662573F953008D7698 /* SearchBar.swift in Sources */,
 				1C8142C3256E677F00714682 /* SettingsView.swift in Sources */,
 				1C4E1A1125838E7200081732 /* EmailHelper.swift in Sources */,
@@ -639,7 +639,7 @@
 			files = (
 				1CAEEBE926BE757A00227C83 /* AquariumLifeWidget.swift in Sources */,
 				1C8E031C26BE79900027BBE3 /* AquariumLifeModel.xcdatamodeld in Sources */,
-				1C8E031B26BE795B0027BBE3 /* AquariumLifeIntents.intentdefinition in Sources */,
+				1C754D0C26D7D21A008C4DD2 /* AquariumLifeIntents.intentdefinition in Sources */,
 				1C8E031E26BE79CA0027BBE3 /* Constants.swift in Sources */,
 				1C8E032126BE7A0E0027BBE3 /* StorageProvider.swift in Sources */,
 			);
@@ -652,7 +652,7 @@
 				1C8E032026BE7A0E0027BBE3 /* StorageProvider.swift in Sources */,
 				1C8E031D26BE79910027BBE3 /* AquariumLifeModel.xcdatamodeld in Sources */,
 				1CAEEBFE26BE762900227C83 /* IntentHandler.swift in Sources */,
-				1C5A0AAE26BE7DA30016675D /* AquariumLifeIntents.intentdefinition in Sources */,
+				1C754D0D26D7D21A008C4DD2 /* AquariumLifeIntents.intentdefinition in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -711,6 +711,14 @@
 				1C5BD17F2672730300AA3BEF /* hi */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1C754D0F26D7D21A008C4DD2 /* AquariumLifeIntents.intentdefinition */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C754D0E26D7D21A008C4DD2 /* Base */,
+			);
+			name = AquariumLifeIntents.intentdefinition;
 			sourceTree = "<group>";
 		};
 		1C8142A0256E487A00714682 /* LaunchScreen.storyboard */ = {
@@ -860,7 +868,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Aquarium life/Aquarium life.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"Aquarium life/Preview Content\"";
 				DEVELOPMENT_TEAM = HP6WDMAW63;
 				ENABLE_PREVIEWS = YES;
@@ -886,7 +894,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Aquarium life/Aquarium life.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"Aquarium life/Preview Content\"";
 				DEVELOPMENT_TEAM = HP6WDMAW63;
 				ENABLE_PREVIEWS = YES;
@@ -953,6 +961,7 @@
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
 				CODE_SIGN_ENTITLEMENTS = AquariumLifeWidgetExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = HP6WDMAW63;
 				INFOPLIST_FILE = AquariumLifeWidget/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
@@ -977,6 +986,7 @@
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
 				CODE_SIGN_ENTITLEMENTS = AquariumLifeWidgetExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = HP6WDMAW63;
 				INFOPLIST_FILE = AquariumLifeWidget/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
@@ -999,6 +1009,7 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = AquariumLifeIntents/AquariumLifeIntents.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = HP6WDMAW63;
 				INFOPLIST_FILE = AquariumLifeIntents/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
@@ -1021,6 +1032,7 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = AquariumLifeIntents/AquariumLifeIntents.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = HP6WDMAW63;
 				INFOPLIST_FILE = AquariumLifeIntents/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
