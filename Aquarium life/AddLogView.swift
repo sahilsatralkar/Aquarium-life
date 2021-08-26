@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import WidgetKit
 
 struct AddLogView: View {
     
@@ -143,6 +144,10 @@ struct AddLogView: View {
         aquariumLog.id = self.uuidForAquarium
         
         try? self.moc.save()
+        
+        //v1.5 reload widget
+        WidgetCenter.shared.reloadAllTimelines()
+
         
         self.presentationMode.wrappedValue.dismiss()
         

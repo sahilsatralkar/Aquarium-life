@@ -271,3 +271,20 @@
 // v.1.4
 "Water change percentage" = "Water change percentage";
 //
+
+//v.1.5
+"Green Mountains" = "Green Mountains";
+"Low" = "Low";
+"High" = "High";
+"Latest" = "Latest";
+"Previous" = "Previous";
+"Water test results" = "Water test results";
+"Quickly glance at the log records for every aquarium" = "Quickly glance at the log records for every aquarium";
+"day ago" = "day ago";
+"days ago" = "days ago";
+"Ammonia" = "Ammonia";
+"Nitrites" = "Nitrites";
+"Nitrates" = "Nitrates";
+
+
+//

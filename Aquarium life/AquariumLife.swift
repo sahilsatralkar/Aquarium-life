@@ -25,6 +25,12 @@ struct AquariumLife : App {
             ParentView()
                 .environment(\.managedObjectContext, persistentContainer.viewContext)
                 .environmentObject(selectedTabObj)
+                .onOpenURL { url in
+                    
+                    guard let tabIdentifier = url.tabIdentifier else { return }
+                    selectedTabObj.tabNumber = tabIdentifier
+
+                }
         }
         .onChange(of : scenePhase) { phase in
             switch phase {

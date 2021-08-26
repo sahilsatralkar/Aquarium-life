@@ -46,8 +46,12 @@
 		1C5111A52576CD74008D7698 /* LiveStockPlantDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5111A42576CD74008D7698 /* LiveStockPlantDetailView.swift */; };
 		1C56020125BD794C00C67F0A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C56020025BD794C00C67F0A /* Constants.swift */; };
 		1C59EADF259DCB5000AA5B1A /* AddAquariumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C59EADE259DCB5000AA5B1A /* AddAquariumView.swift */; };
+		1C5A0AAE26BE7DA30016675D /* AquariumLifeIntents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 1CAEEC0726BE76F500227C83 /* AquariumLifeIntents.intentdefinition */; };
 		1C5BD17C267272FC00AA3BEF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1C5BD17E267272FC00AA3BEF /* InfoPlist.strings */; };
 		1C5BD1822673A22500AA3BEF /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C5BD1812673A22500AA3BEF /* CloudKit.framework */; };
+		1C754D0726D79649008C4DD2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1C32B90825E948E90096A3D1 /* Localizable.strings */; };
+		1C754D0826D79697008C4DD2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1C32B90825E948E90096A3D1 /* Localizable.strings */; };
+		1C754D0926D797E4008C4DD2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1C32B90825E948E90096A3D1 /* Localizable.strings */; };
 		1C814296256E487500714682 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C814295256E487500714682 /* AppDelegate.swift */; };
 		1C814298256E487500714682 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C814297256E487500714682 /* SceneDelegate.swift */; };
 		1C81429C256E487A00714682 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C81429B256E487A00714682 /* Assets.xcassets */; };
@@ -58,6 +62,12 @@
 		1C8142BA256E674200714682 /* MyTankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8142B9256E674200714682 /* MyTankView.swift */; };
 		1C8142C0256E676B00714682 /* LiveStockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8142BF256E676B00714682 /* LiveStockView.swift */; };
 		1C8142C3256E677F00714682 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8142C2256E677F00714682 /* SettingsView.swift */; };
+		1C8E031B26BE795B0027BBE3 /* AquariumLifeIntents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 1CAEEC0726BE76F500227C83 /* AquariumLifeIntents.intentdefinition */; };
+		1C8E031C26BE79900027BBE3 /* AquariumLifeModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1CF0A8EE25C8A636005992E3 /* AquariumLifeModel.xcdatamodeld */; };
+		1C8E031D26BE79910027BBE3 /* AquariumLifeModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1CF0A8EE25C8A636005992E3 /* AquariumLifeModel.xcdatamodeld */; };
+		1C8E031E26BE79CA0027BBE3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C56020025BD794C00C67F0A /* Constants.swift */; };
+		1C8E032026BE7A0E0027BBE3 /* StorageProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAEEBCE26BE57AE00227C83 /* StorageProvider.swift */; };
+		1C8E032126BE7A0E0027BBE3 /* StorageProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAEEBCE26BE57AE00227C83 /* StorageProvider.swift */; };
 		1C9F271525B9A49800171D3F /* AddNotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9F271425B9A49800171D3F /* AddNotificationView.swift */; };
 		1CAEEBCD26BE56EC00227C83 /* AquariumLife.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAEEBCC26BE56EC00227C83 /* AquariumLife.swift */; };
 		1CAEEBCF26BE57AE00227C83 /* StorageProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAEEBCE26BE57AE00227C83 /* StorageProvider.swift */; };
@@ -535,6 +545,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C754D0926D797E4008C4DD2 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -543,6 +554,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CAEEBEB26BE758300227C83 /* Assets.xcassets in Resources */,
+				1C754D0726D79649008C4DD2 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -550,6 +562,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C754D0826D79697008C4DD2 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -625,6 +638,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CAEEBE926BE757A00227C83 /* AquariumLifeWidget.swift in Sources */,
+				1C8E031C26BE79900027BBE3 /* AquariumLifeModel.xcdatamodeld in Sources */,
+				1C8E031B26BE795B0027BBE3 /* AquariumLifeIntents.intentdefinition in Sources */,
+				1C8E031E26BE79CA0027BBE3 /* Constants.swift in Sources */,
+				1C8E032126BE7A0E0027BBE3 /* StorageProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -632,7 +649,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C8E032026BE7A0E0027BBE3 /* StorageProvider.swift in Sources */,
+				1C8E031D26BE79910027BBE3 /* AquariumLifeModel.xcdatamodeld in Sources */,
 				1CAEEBFE26BE762900227C83 /* IntentHandler.swift in Sources */,
+				1C5A0AAE26BE7DA30016675D /* AquariumLifeIntents.intentdefinition in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -935,7 +955,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HP6WDMAW63;
 				INFOPLIST_FILE = AquariumLifeWidget/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -946,7 +966,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -959,7 +979,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HP6WDMAW63;
 				INFOPLIST_FILE = AquariumLifeWidget/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -970,7 +990,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

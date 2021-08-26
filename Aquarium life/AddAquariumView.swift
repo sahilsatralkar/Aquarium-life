@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import WidgetKit
 
 enum ActiveAlert {
     case first, second, third, fourth, zero
@@ -221,6 +222,9 @@ struct AddAquariumView: View {
             
             try? self.moc.save()
             
+            //v1.5 reload widget
+            WidgetCenter.shared.reloadAllTimelines()
+
             self.presentationMode.wrappedValue.dismiss()
         }
     }

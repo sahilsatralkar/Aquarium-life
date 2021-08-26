@@ -23,12 +23,16 @@
 	<key>NSExtension</key>
 	<dict>
 		<key>NSExtensionAttributes</key>
-		<dict>
-			<key>IntentsRestrictedWhileLocked</key>
-			<array/>
-			<key>IntentsSupported</key>
-			<array/>
-		</dict>
+        <dict>
+            <key>IntentsRestrictedWhileLocked</key>
+            <array/>
+            <key>IntentsRestrictedWhileProtectedDataUnavailable</key>
+            <array/>
+            <key>IntentsSupported</key>
+            <array>
+                <string>SelectAquariumIntent</string>
+            </array>
+        </dict>
 		<key>NSExtensionPointIdentifier</key>
 		<string>com.apple.intents-service</string>
 		<key>NSExtensionPrincipalClass</key>

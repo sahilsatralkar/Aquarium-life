@@ -271,3 +271,18 @@
 // v.1.4
 "Water change percentage" = "जल परिवर्तन प्रतिशत";
 //
+
+//v.1.5
+"Green Mountains" = "हरे पहाड़";
+"Low" = "न्यून";
+"High" = "उच्च";
+"Latest" = "नवीनतम";
+"Previous" = "पहला";
+"Water test results" = "जल परीक्षण के परिणाम";
+"Quickly glance at the log records for every aquarium" = "हर एक्वेरियम के रिकॉर्ड पर तुरंत नज़र डालें";
+"day ago" = "दिन पहले";
+"days ago" = "दिन पहले";
+"Ammonia" = "अमोनिया";
+"Nitrites" = "नाइट्राट";
+"Nitrates" = "नाइट्रेट";
+//

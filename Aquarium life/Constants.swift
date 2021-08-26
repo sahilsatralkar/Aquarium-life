@@ -9,6 +9,16 @@ import Foundation
 
 struct Constants {
     
+    //v1.5-Start
+    
+    struct Widget {
+        
+        static let appGroup = "group.com.sahil.satralkar.AquariumLife"
+        static let kind = "AquariumLifeWidget"
+    }
+    
+    //v1.5-End
+    
     // v.1.4
     struct QuickActions {
         
