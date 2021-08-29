@@ -57,7 +57,7 @@ extension IntentHandler : SelectAquariumIntentHandling {
 
         let resultsFirst = results.last
 
-        let aquarium = Aquarium(identifier: resultsFirst?.aquariumName, display: resultsFirst?.aquariumName ?? "Default Intent" )
+        let aquarium = Aquarium(identifier: resultsFirst?.aquariumName, display: resultsFirst?.aquariumName ?? "No Aquariums" )
 
         return aquarium
 

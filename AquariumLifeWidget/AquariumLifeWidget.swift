@@ -133,7 +133,7 @@ struct WidgetData {
         self.aquariumName = aquariumName
         self.aquariumID = aquariumID
         
-        self.latestLogsAmmonia = "3.25"
+        self.latestLogsAmmonia = "-"
         self.latestLogsTemperature = "-"
         self.latestLogsPH = "-"
         self.latestLogsNitrite = "-"
