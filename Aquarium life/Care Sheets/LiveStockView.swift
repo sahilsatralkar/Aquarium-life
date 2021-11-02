@@ -12,18 +12,18 @@ struct LiveStockView: View {
     @ObservedObject var searchBar: SearchBar = SearchBar()
     @State private var liveStockSelected = 0
     
-    let liveStockCategories : [String] = ["Fish","Shrimps","Plants"]
+    let liveStockCategories : [String] = ["Fish","Shrimps","Plants","Snails","Crabs"]
     
     private var liveStockSelectedMenu : Int {
         return liveStockSelected
     }
     let fishes : [Fish] = Bundle.main.decode(Constants.File.fishJSON)
+    //Added in v1.6 -Start
+    let snails : [Snail] = Bundle.main.decode(Constants.File.snailJSON)
+    let crabs : [Crab] = Bundle.main.decode(Constants.File.crabJSON)
+    //Added in v1.6 -End
     
-    
-//    let sortedFishes = fishes.sorted {
-//        $0.name < $1.name
-//    }
-//
+
     let shrimps : [Shrimp] = Bundle.main.decode(Constants.File.shrimpJSON)
     let plants : [Plant] = Bundle.main.decode(Constants.File.plantJSON)
     
@@ -40,7 +40,7 @@ struct LiveStockView: View {
                 }
                 .font(.headline)
                 .pickerStyle(DefaultPickerStyle())
-                Section (header:Text(LocalizedStringKey("LISTOF\(self.liveStockCategories[liveStockSelected])"))){
+                Section (header:Text(LocalizedStringKey("LIST OF \(self.liveStockCategories[liveStockSelected])"))){
                     List {
                         if liveStockSelectedMenu == 0 {
                             ForEach(self.fishes.filter {
@@ -93,6 +93,43 @@ struct LiveStockView: View {
                             }
                             
                         }
+                        //Added v1.6 -Start
+                        if liveStockSelectedMenu == 3 {
+                            ForEach(self.snails.filter {
+                                searchBar.text.isEmpty ? true : $0.name.localizedStandardContains(searchBar.text)
+                                
+                            }, id: \.self.id)
+                            { snail in
+                                NavigationLink(
+                                    destination: LiveStockSnailDetailView(snail: snail)
+                                ){
+                                    
+                                    Image(systemName: "doc.circle")
+                                        .foregroundColor(.green)
+                                    Text(snail.name)
+                                    
+                                }
+                            }
+                            
+                        }
+                        if liveStockSelectedMenu == 4 {
+                            ForEach(self.crabs.filter {
+                                searchBar.text.isEmpty ? true : $0.name.localizedStandardContains(searchBar.text)
+                                
+                            }, id: \.self.id)
+                            { crab in
+                                NavigationLink(
+                                    destination: LiveStockCrabDetailView(crab: crab)){
+                                    
+                                    Image(systemName: "doc.circle")
+                                        .foregroundColor(.green)
+                                    Text(crab.name)
+                                    
+                                }
+                            }
+                            
+                        }
+                        //Added v1.6 -End
                     }
                 }
             }

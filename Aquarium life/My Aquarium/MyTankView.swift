@@ -35,7 +35,7 @@ struct MyTankView: View {
     var body: some View {
         NavigationView {
             Form{
-                    Section (footer: Text("TapOnPlus")) {
+                    Section (header: Text("TapOnPlus")) {
                     List {
                         ForEach(addAquariumResults , id: \.id) { aquarium in
                             

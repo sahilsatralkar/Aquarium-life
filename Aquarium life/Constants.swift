@@ -76,6 +76,11 @@ struct Constants {
         static let plantJSON = "plant.json"
         static let shrimpJSON = "shrimp.json"
         static let guideJSON = "guide.json"
+        //Added in v1.6- Start
+        static let crabJSON = "crab.json"
+        static let snailJSON = "snail.json"
+        //Added in v1.6- End
+        
     }
     struct Button {
         static let dismissText = "Dismiss"

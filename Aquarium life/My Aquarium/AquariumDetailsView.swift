@@ -11,7 +11,7 @@ struct AquariumDetailsView: View {
     
     @State private var showingActionSheetAlert = false
     
-    let liveStockCategories = ["Fish","Shrimps","Plants"]
+    let liveStockCategories = ["Fish","Shrimps","Plants","Snails","Crabs"]
     
     var selectedAquarium : AddAquarium
     
@@ -37,6 +37,18 @@ struct AquariumDetailsView: View {
                         Text(LocalizedStringKey(liveStockCategories[2])).font(.headline)
                         
                     }
+                    //Added v1.6- Start
+                    NavigationLink(
+                        destination: AddSnailsToAquariumView(filter: selectedAquarium.id ?? UUID().uuidString)){
+                        Text(LocalizedStringKey(liveStockCategories[3])).font(.headline)
+                        
+                    }
+                    NavigationLink(
+                        destination: AddCrabsToAquariumView(filter: selectedAquarium.id ?? UUID().uuidString)){
+                        Text(LocalizedStringKey(liveStockCategories[4])).font(.headline)
+                        
+                    }
+                    //Added v1.6- End
                 }
             }
             Section(header: Text(LocalizedStringKey("LogBook")), footer: Text(LocalizedStringKey("TapToSeeDetails"))) {

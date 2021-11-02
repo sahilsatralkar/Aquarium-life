@@ -158,14 +158,7 @@ struct ParentView: View {
         // v.1.4
         TabView (selection: $selectedTabEnv.tabNumber){
         //
-            MyTankView()
-                .tabItem {
-                    Image(systemName: "cube")
-                    Text(LocalizedStringKey("MyAquariums"))
-                }
-                // v.1.4.1
-                .tag(TabIdentifier.myAquariums)
-                //
+            
             
             LiveStockView()
                 .tabItem {
@@ -182,6 +175,14 @@ struct ParentView: View {
                 }
                 // v.1.4.1
                 .tag(TabIdentifier.calculators)
+                //
+            MyTankView()
+                .tabItem {
+                    Image(systemName: "cube")
+                    Text(LocalizedStringKey("MyAquariums"))
+                }
+                // v.1.4.1
+                .tag(TabIdentifier.myAquariums)
                 //
             NotesView()
                 .tabItem {

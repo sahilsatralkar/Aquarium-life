@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="18154" systemVersion="20F71" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="YES" userDefinedModelVersionIdentifier="">
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19461" systemVersion="21A559" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="YES" userDefinedModelVersionIdentifier="">
     <entity name="AddAquarium" representedClassName="AddAquarium" syncable="YES" codeGenerationType="class">
         <attribute name="aquariumDimensionUnits" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
         <attribute name="aquariumHeight" optional="YES" attributeType="String"/>
@@ -12,6 +12,13 @@
         <attribute name="id" optional="YES" attributeType="String"/>
         <attribute name="substrate" optional="YES" attributeType="String"/>
         <attribute name="volume" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="AddCrab" representedClassName="AddCrab" syncable="YES" codeGenerationType="class">
+        <attribute name="crabArrayIndex" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="crabName" optional="YES" attributeType="String"/>
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="quantity" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
     </entity>
     <entity name="AddFish" representedClassName="AddFish" syncable="YES" codeGenerationType="class">
         <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
@@ -43,6 +50,13 @@
         <attribute name="shrimpArrayIndex" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
         <attribute name="shrimpName" optional="YES" attributeType="String"/>
     </entity>
+    <entity name="AddSnail" representedClassName="AddSnail" syncable="YES" codeGenerationType="class">
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="quantity" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="snailArrayIndex" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="snailName" optional="YES" attributeType="String"/>
+    </entity>
     <entity name="Notes" representedClassName="Notes" syncable="YES" codeGenerationType="class">
         <attribute name="content" optional="YES" attributeType="String"/>
         <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
@@ -58,10 +72,12 @@
     </entity>
     <elements>
         <element name="AddAquarium" positionX="-54" positionY="-9" width="128" height="194"/>
+        <element name="AddCrab" positionX="-9" positionY="108" width="128" height="104"/>
         <element name="AddFish" positionX="-54" positionY="72" width="128" height="104"/>
         <element name="AddLog" positionX="-9" positionY="99" width="128" height="134"/>
         <element name="AddPlant" positionX="-27" positionY="90" width="128" height="104"/>
         <element name="AddShrimp" positionX="-45" positionY="81" width="128" height="104"/>
+        <element name="AddSnail" positionX="-18" positionY="99" width="128" height="104"/>
         <element name="Notes" positionX="-18" positionY="99" width="128" height="89"/>
         <element name="Notifications" positionX="9" positionY="135" width="128" height="104"/>
     </elements>

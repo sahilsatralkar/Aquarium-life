@@ -130,9 +130,9 @@
 
 //Care Sheets view
 "PresentSelection" = "मौजूदा चयन";
-"LISTOFFISH" = "मछली की सूची";
-"LISTOFSHRIMPS" = "श्रिम्प की सूची";
-"LISTOFPLANTS" = "पौधों की सूची";
+"LISTOFFish" = "मछली की सूची";
+"LISTOFShrimps" = "श्रिम्प की सूची";
+"LISTOFPlants" = "पौधों की सूची";
 
 //Volume calculator
 "liters" = "लीटर";
@@ -286,3 +286,20 @@
 "Nitrites" = "नाइट्राट";
 "Nitrates" = "नाइट्रेट";
 //
+
+//v1.6- Start
+//Add Snail to Aquarium
+"SnailInAquarium" = "मछलीघर में घोंघा";
+"TapToAddSnailAndSwipe" = "नया घोंघा जोड़ने के लिए + पर टैप करें \nघोंघा पंक्ति को हटाने के लिए दाएं से बाएं स्वाइप करें";
+"AddNewSnailAccess"      = "एक्वेरियम में नया घोंघा जोड़ें";
+"Snail" = "घोंघा";
+"Snails" = "घोंघे";
+"SelectionOfSnail" = "घोंघे का चयन";
+"AddSnail" = "घोंघे जोड़ें";
+
+"CrabInAquarium" = "एक्वेरियम में केकड़े";
+"TapToAddCrabAndSwipe" = "नया केकड़ा जोड़ने के लिए + पर टैप करें \nकेकड़ा पंक्ति को हटाने के लिए दाएं से बाएं स्वाइप करें";
+"Crab" = "केकड़ा";
+"Crabs" = "केकड़े";
+"AddNewCrabAccess" = "एक्वेरियम में नया केकड़ा जोड़ें";
+//v1.6- End

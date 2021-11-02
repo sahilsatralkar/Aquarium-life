@@ -330,14 +330,14 @@ struct AquariumLifeWidgetEntryView : View {
                                 .foregroundColor(self.ammoniaColor)
                         }
                         .frame(width: geometry.size.width, height: (geometry.size
-                                .height / 3) + 20)
+                                .height / 3) )
                         //.background(Color.green)
                         
                         Text(entry.widgetData.latestLogsDate.dayAgoDisplay())
                             .font(.footnote)
                             .fontWeight(.light)
                             .frame(width: geometry.size.width, height: geometry.size
-                                    .height/3 - 20)
+                                    .height/3 - 4)
                             //.background(Color.yellow)
                     }
                 }
@@ -364,7 +364,7 @@ struct AquariumLifeWidgetEntryView : View {
                             .padding(.trailing, 20)
                             //.padding()
                             .lineLimit(1)
-                            .frame(width: geometry.size.width,height: (geometry.size.height/4) + 6 )
+                            .frame(width: geometry.size.width,height: (geometry.size.height/4) )
                             .overlay(VStack{Divider().offset(x: 0, y: 24)})
                         //.background(Color.gray)
                         HStack {
@@ -456,8 +456,9 @@ struct AquariumLifeWidgetEntryView : View {
                         .frame(width : geometry.size.width, height : geometry.size.height/4)
                         //.background(Color.blue)
                         Text(entry.widgetData.latestLogsDate.dayAgoDisplay())
-                            .font(.callout)
-                            .frame(width : geometry.size.width, height: geometry.size.height/4 - 6)
+                            .font(.footnote)
+                            .fontWeight(.light)
+                            .frame(width : geometry.size.width, height: geometry.size.height/4 - 30)
                         //.background(Color.blue)
                     }
                 }
@@ -482,16 +483,16 @@ struct AquariumLifeWidgetEntryView : View {
                                 .font(.title2)
                                 .fontWeight(.light)
                                 .lineLimit(1)
-                                .frame(width: geometry.size.width + 8 , height: (geometry.size.height/7) )                               .overlay(VStack{Divider().offset(x: 1, y: 24)})
+                                .frame(width: geometry.size.width + 8 , height: (geometry.size.height/8) )                               .overlay(VStack{Divider().offset(x: 1, y: 28)})
                         }
                         HStack {
                             Text(LocalizedStringKey("Latest"))
                                 .font(.callout)
-                                .frame(width: geometry.size.width/2, height: geometry.size.height/7)
+                                .frame(width: geometry.size.width/2, height: geometry.size.height/8)
                             //.background(Color.blue)
                             Text(LocalizedStringKey("Previous"))
                                 .font(.callout)
-                                .frame(width: geometry.size.width/2, height: geometry.size.height/7)
+                                .frame(width: geometry.size.width/2, height: geometry.size.height/8)
                             //.background(Color.blue
                         }
                         .frame(width: geometry.size.width)
@@ -506,7 +507,7 @@ struct AquariumLifeWidgetEntryView : View {
                                 Text("\(entry.widgetData.latestLogsAmmonia)")
                                     .frame(width: 43)
                             }
-                            .frame(width: geometry.size.width/2, height: geometry.size.height/7)
+                            .frame(width: geometry.size.width/2, height: geometry.size.height/8)
                             //.background(Color.blue)
                             HStack {
                                 Text(LocalizedStringKey("Ammonia"))
@@ -517,7 +518,7 @@ struct AquariumLifeWidgetEntryView : View {
                                 Text("\(entry.widgetData.previousLogsAmmonia)")
                                     .frame(width: 43)
                             }
-                            .frame(width: geometry.size.width/2, height: geometry.size.height/7)
+                            .frame(width: geometry.size.width/2, height: geometry.size.height/8)
                             //.background(Color.blue)
                         }
                         //.background(Color.blue)
@@ -531,7 +532,7 @@ struct AquariumLifeWidgetEntryView : View {
                                 Text("\(entry.widgetData.latestLogsNitrite)")
                                     .frame(width: 43)
                             }
-                            .frame(width: geometry.size.width/2, height: geometry.size.height/7)
+                            .frame(width: geometry.size.width/2, height: geometry.size.height/8)
                             //.background(Color.blue)
                             HStack {
                                 Text(LocalizedStringKey("Nitrites"))
@@ -542,7 +543,7 @@ struct AquariumLifeWidgetEntryView : View {
                                 Text("\(entry.widgetData.previousLogsNitrite)")
                                     .frame(width: 43)
                             }
-                            .frame(width: geometry.size.width/2, height: geometry.size.height/7)
+                            .frame(width: geometry.size.width/2, height: geometry.size.height/8)
                             //.background(Color.blue)
                         }
                         //.background(Color.orange)
@@ -557,7 +558,7 @@ struct AquariumLifeWidgetEntryView : View {
                                 Text("\(entry.widgetData.latestLogsNitrate)")
                                     .frame(width: 43)
                             }
-                            .frame(width: geometry.size.width/2, height: geometry.size.height/7)
+                            .frame(width: geometry.size.width/2, height: geometry.size.height/8)
                             //.background(Color.blue)
                             HStack {
                                 Text(LocalizedStringKey("Nitrates"))
@@ -568,7 +569,7 @@ struct AquariumLifeWidgetEntryView : View {
                                 Text("\(entry.widgetData.previousLogsNitrate)")
                                     .frame(width: 43)
                             }
-                            .frame(width: geometry.size.width/2, height: geometry.size.height/7)
+                            .frame(width: geometry.size.width/2, height: geometry.size.height/8)
                             //.background(Color.blue)
                         }
                         //.background(Color.blue)
@@ -583,7 +584,7 @@ struct AquariumLifeWidgetEntryView : View {
                                 Text(pHLevel)
                                     .frame(width: 43)
                             }
-                            .frame(width: geometry.size.width/2, height: geometry.size.height/7)
+                            .frame(width: geometry.size.width/2, height: geometry.size.height/8)
                             //.background(Color.blue)
                             HStack {
                                 Text("pH: \(entry.widgetData.previousLogsPH)")
@@ -594,7 +595,7 @@ struct AquariumLifeWidgetEntryView : View {
                                 Text(prevPHLevel)
                                     .frame(width: 43)
                             }
-                            .frame(width: geometry.size.width/2, height: geometry.size.height/7)
+                            .frame(width: geometry.size.width/2, height: geometry.size.height/8)
                             //.background(Color.blue)
                         }
                         //.background(Color.red)
@@ -607,7 +608,7 @@ struct AquariumLifeWidgetEntryView : View {
                                 .font(.footnote)
                                 .frame(width: geometry.size.width/2)
                         }
-                        .frame(width: geometry.size.width, height: geometry.size.height/7)
+                        .frame(width: geometry.size.width, height: geometry.size.height/8)
                         //.background(Color.gray)
                     }
                 }
@@ -655,90 +656,85 @@ struct AquariumLifeWidget: Widget {
 }
 
 struct AquariumLifeWidget_Previews: PreviewProvider {
-    
+
     static var previews: some View {
         Group {
             
             AquariumLifeWidgetEntryView(entry: SimpleEntry(date: Date(), widgetData: WidgetData(aquariumName: "Green mountains", aquariumID: "123")))
                 .previewContext(WidgetPreviewContext(family: .systemSmall))
-                .previewDevice("iPhone 6s")
-                .previewDisplayName("iPhone 6s")
+                .previewDevice("iPhone 7")
+                .previewDisplayName("iPhone 7")
                 .preferredColorScheme(.dark)
-            
+
             AquariumLifeWidgetEntryView(entry: SimpleEntry(date: Date(), widgetData: WidgetData(aquariumName: "Green mountaina qu aaaaad dasdasdasdasdasdasdasd", aquariumID: "123")))
                 .previewContext(WidgetPreviewContext(family: .systemSmall))
-                .previewDevice("iPhone 6s")
-                .previewDisplayName("iPhone6s- 2line")
-            
+                .previewDevice("iPhone 7")
+                .previewDisplayName("iPhone7- 2line")
+
             AquariumLifeWidgetEntryView(entry: SimpleEntry(date: Date(), widgetData: WidgetData(aquariumName: "Greenssssssssss mountains", aquariumID: "123")))
                 .previewContext(WidgetPreviewContext(family: .systemSmall))
                 .previewDevice("iPhone 12 Max Pro")
                 .previewDisplayName("iPhone 12 Max Pro")
-            
+
             AquariumLifeWidgetEntryView(entry: SimpleEntry(date: Date(), widgetData: WidgetData(aquariumName: "Green mountains aquarium 567890", aquariumID: "123")))
                 .previewContext(WidgetPreviewContext(family: .systemSmall))
                 .previewDevice("iPhone 11")
                 .previewDisplayName("iPhone 11")
-            
+
             AquariumLifeWidgetEntryView(entry: SimpleEntry(date: Date(), widgetData: WidgetData(aquariumName: "Green mountains aquarium sad", aquariumID: "123")))
                 .previewContext(WidgetPreviewContext(family: .systemMedium))
-                .previewDevice("iPhone 6s")
-                .previewDisplayName("iPhone 6s")
-            
+                .previewDevice("iPhone 7")
+                .previewDisplayName("iPhone 7")
+
             AquariumLifeWidgetEntryView(entry: SimpleEntry(date: Date(), widgetData: WidgetData(aquariumName: "Green mountains aquarium sad", aquariumID: "123")))
                 .previewContext(WidgetPreviewContext(family: .systemMedium))
                 .previewDevice("iPhone 11")
                 .previewDisplayName("iPhone 11")
-            
+
             AquariumLifeWidgetEntryView(entry: SimpleEntry(date: Date(), widgetData: WidgetData(aquariumName: "Green mountains aquariums", aquariumID: "123")))
                 .previewContext(WidgetPreviewContext(family: .systemMedium))
                 .previewDevice("iPhone 12 Max Pro")
                 .previewDisplayName("iPhone 12 Max Pro")
-            
+
             AquariumLifeWidgetEntryView(entry: SimpleEntry(date: Date(), widgetData: WidgetData(aquariumName: "Green mountains", aquariumID: "123")))
                 .previewContext(WidgetPreviewContext(family: .systemLarge))
                 .previewDevice("iPhone 12 Max Pro")
                 .previewDisplayName("iPhone 12 Max Pro")
-            
+
             AquariumLifeWidgetEntryView(entry: SimpleEntry(date: Date(), widgetData: WidgetData(aquariumName: "Green mountains", aquariumID: "123")))
                 .previewContext(WidgetPreviewContext(family: .systemLarge))
                 .previewDevice("iPhone 7 plus")
                 .previewDisplayName("iPhone 7 plus - dark")
                 .preferredColorScheme(.dark)
-                            
+
             AquariumLifeWidgetEntryView(entry: SimpleEntry(date: Date(), widgetData: WidgetData(aquariumName: "Green mountains", aquariumID: "123")))
                 .previewContext(WidgetPreviewContext(family: .systemLarge))
                 .previewDevice("iPhone 11")
                 .previewDisplayName("iPhone 11")
-            
+
         }
         Group {
-            
+
             AquariumLifeWidgetEntryView(entry: SimpleEntry(date: Date(), widgetData: WidgetData(aquariumName: "Green mountains", aquariumID: "123")))
                 .previewContext(WidgetPreviewContext(family: .systemLarge))
-                .previewDevice("iPhone 6s")
-                .previewDisplayName("iPhone 6s")
-            
+                .previewDevice("iPhone 12")
+                .previewDisplayName("iPhone 12")
+
             AquariumLifeWidgetEntryView(entry: SimpleEntry(date: Date(), widgetData: WidgetData(aquariumName: "Greenssssssssss mountains", aquariumID: "123")))
                 .previewContext(WidgetPreviewContext(family: .systemSmall))
                 .previewDevice("iPhone 12 Max Pro")
                 .previewDisplayName("iPhone 12 Max Pro")
-            
+
             AquariumLifeWidgetEntryView(entry: SimpleEntry(date: Date(), widgetData: WidgetData(aquariumName: "Green mountains aquarium 567890", aquariumID: "123")))
                 .previewContext(WidgetPreviewContext(family: .systemSmall))
                 .previewDevice("iPhone 11")
                 .previewDisplayName("iPhone 11")
-            
+
             AquariumLifeWidgetEntryView(entry: SimpleEntry(date: Date(), widgetData: WidgetData(aquariumName: "Green mountains aquarium sad", aquariumID: "123")))
                 .previewContext(WidgetPreviewContext(family: .systemMedium))
                 .previewDevice("iPhone Xr")
                 .previewDisplayName("iPhone Xr")
             
-            AquariumLifeWidgetEntryView(entry: SimpleEntry(date: Date(), widgetData: WidgetData(aquariumName: "Green mountains aquarium sad", aquariumID: "123")))
-                .previewContext(WidgetPreviewContext(family: .systemMedium))
-                .previewDevice("iPhone 11")
-                .previewDisplayName("iPhone 11")
-                //.previewContext()
         }
     }
 }

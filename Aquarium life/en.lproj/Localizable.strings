@@ -128,9 +128,9 @@
 
 //Care Sheets view
 "PresentSelection" = "Present selection";
-"LISTOFFISH" = "List of Fish";
-"LISTOFSHRIMPS" = "List of Shrimps";
-"LISTOFPLANTS" = "List of Plants";
+"LISTOFFish" = "List of Fish";
+"LISTOFShrimps" = "List of Shrimps";
+"LISTOFPlants" = "List of Plants";
 
 //Volume calculator
 "liters" = "Liters";
@@ -288,3 +288,22 @@
 
 
 //
+
+//v1.6- Start
+//Add Snail to Aquarium
+"SnailInAquarium" = "Snails in aquarium";
+"TapToAddSnailAndSwipe" = "Tap on + to add new Snails \nSwipe from right to left to delete Snails row";
+"AddNewSnailAccess"      = "Add new snails to Aquarium";
+"Snail" = "Snail";
+"Snails" = "Snails";
+"SelectionOfSnail" = "Selection of Snails";
+"AddSnail" = "Add Snails";
+
+"CrabInAquarium" = "Crabs in aquarium";
+"TapToAddCrabAndSwipe" = "Tap on + to add new Crabs \nSwipe from right to left to delete Crabs row";
+"Crab" = "Crab";
+"Crabs" = "Crabs";
+"AddNewCrabAccess" = "Add new crabs to Aquarium";
+"SelectionOfCrab" = "Selection of Crabs";
+"AddCrab" = "Add Crabs";
+//v1.6- End

@@ -28,7 +28,7 @@ struct NotesView: View {
     var body: some View {
         NavigationView {
             Form {
-                Section (footer: Text(LocalizedStringKey("Tap on + to add new Notes"))) {
+                Section (header: Text(LocalizedStringKey("Tap on + to add new Notes"))) {
                     List {
                         ForEach(fetchRequest.wrappedValue, id:\.self) { note in
                             

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C0130DE272BD22100F5CABF /* snail.json in Resources */ = {isa = PBXBuildFile; fileRef = 1C0130E0272BD22100F5CABF /* snail.json */; };
 		1C0983B225B17EA900446081 /* LogBookDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0983B125B17EA900446081 /* LogBookDetailsView.swift */; };
 		1C0983B525B17EF500446081 /* AddLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0983B425B17EF500446081 /* AddLogView.swift */; };
 		1C0DFD6F25EDA9BE004954A1 /* shrimp.json in Resources */ = {isa = PBXBuildFile; fileRef = 1C0DFD7125EDA9BE004954A1 /* shrimp.json */; };
@@ -54,6 +55,19 @@
 		1C754D0B26D7D21A008C4DD2 /* AquariumLifeIntents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 1C754D0F26D7D21A008C4DD2 /* AquariumLifeIntents.intentdefinition */; };
 		1C754D0C26D7D21A008C4DD2 /* AquariumLifeIntents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 1C754D0F26D7D21A008C4DD2 /* AquariumLifeIntents.intentdefinition */; };
 		1C754D0D26D7D21A008C4DD2 /* AquariumLifeIntents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 1C754D0F26D7D21A008C4DD2 /* AquariumLifeIntents.intentdefinition */; };
+		1C805B8D272FBE1B00BA8C5C /* crab.json in Resources */ = {isa = PBXBuildFile; fileRef = 1C805B8F272FBE1B00BA8C5C /* crab.json */; };
+		1C805B94272FE58500BA8C5C /* Crab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C805B93272FE58500BA8C5C /* Crab.swift */; };
+		1C805B96272FE67900BA8C5C /* Snail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C805B95272FE67900BA8C5C /* Snail.swift */; };
+		1C805B9D272FF8F200BA8C5C /* StoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C28E37325C4281D00657D98 /* StoreManager.swift */; };
+		1C805B9E272FF8F200BA8C5C /* StoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C28E37325C4281D00657D98 /* StoreManager.swift */; };
+		1C805BA127300C0B00BA8C5C /* AddSnailsToAquariumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C805BA027300C0B00BA8C5C /* AddSnailsToAquariumView.swift */; };
+		1C805BA327300E1900BA8C5C /* AquariumSnailSelectedDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C805BA227300E1900BA8C5C /* AquariumSnailSelectedDetails.swift */; };
+		1C805BA5273041EB00BA8C5C /* SelectSnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C805BA4273041EB00BA8C5C /* SelectSnail.swift */; };
+		1C805BAC2730453C00BA8C5C /* AquariumCrabSelectedDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C805BAB2730453C00BA8C5C /* AquariumCrabSelectedDetails.swift */; };
+		1C805BAF2730464600BA8C5C /* AddCrabsToAquarium.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C805BAE2730464600BA8C5C /* AddCrabsToAquarium.swift */; };
+		1C805BB12730471900BA8C5C /* SelectCrab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C805BB02730471900BA8C5C /* SelectCrab.swift */; };
+		1C805BB32730588400BA8C5C /* LiveStockSnailDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C805BB22730588400BA8C5C /* LiveStockSnailDetailView.swift */; };
+		1C805BB5273059CF00BA8C5C /* LiveStockCrabDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C805BB4273059CF00BA8C5C /* LiveStockCrabDetailView.swift */; };
 		1C814296256E487500714682 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C814295256E487500714682 /* AppDelegate.swift */; };
 		1C814298256E487500714682 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C814297256E487500714682 /* SceneDelegate.swift */; };
 		1C81429C256E487A00714682 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C81429B256E487A00714682 /* Assets.xcassets */; };
@@ -127,6 +141,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1C0130E1272BD22400F5CABF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = en; path = en.lproj/snail.json; sourceTree = "<group>"; };
+		1C0130E2272BD22500F5CABF /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = hi; path = hi.lproj/snail.json; sourceTree = "<group>"; };
 		1C0983B125B17EA900446081 /* LogBookDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogBookDetailsView.swift; sourceTree = "<group>"; };
 		1C0983B425B17EF500446081 /* AddLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLogView.swift; sourceTree = "<group>"; };
 		1C0DFD6D25EDA67F004954A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = en; path = en.lproj/fish.json; sourceTree = "<group>"; };
@@ -178,6 +194,18 @@
 		1C754D0E26D7D21A008C4DD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; name = Base; path = Base.lproj/AquariumLifeIntents.intentdefinition; sourceTree = "<group>"; };
 		1C754D1726D7D744008C4DD2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/AquariumLifeIntents.strings; sourceTree = "<group>"; };
 		1C754D1926D7D745008C4DD2 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/AquariumLifeIntents.strings; sourceTree = "<group>"; };
+		1C805B8E272FBE1B00BA8C5C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = en; path = en.lproj/crab.json; sourceTree = "<group>"; };
+		1C805B90272FBE2200BA8C5C /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = hi; path = hi.lproj/crab.json; sourceTree = "<group>"; };
+		1C805B93272FE58500BA8C5C /* Crab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crab.swift; sourceTree = "<group>"; };
+		1C805B95272FE67900BA8C5C /* Snail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snail.swift; sourceTree = "<group>"; };
+		1C805BA027300C0B00BA8C5C /* AddSnailsToAquariumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSnailsToAquariumView.swift; sourceTree = "<group>"; };
+		1C805BA227300E1900BA8C5C /* AquariumSnailSelectedDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AquariumSnailSelectedDetails.swift; sourceTree = "<group>"; };
+		1C805BA4273041EB00BA8C5C /* SelectSnail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectSnail.swift; sourceTree = "<group>"; };
+		1C805BAB2730453C00BA8C5C /* AquariumCrabSelectedDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AquariumCrabSelectedDetails.swift; sourceTree = "<group>"; };
+		1C805BAE2730464600BA8C5C /* AddCrabsToAquarium.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCrabsToAquarium.swift; sourceTree = "<group>"; };
+		1C805BB02730471900BA8C5C /* SelectCrab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCrab.swift; sourceTree = "<group>"; };
+		1C805BB22730588400BA8C5C /* LiveStockSnailDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveStockSnailDetailView.swift; sourceTree = "<group>"; };
+		1C805BB4273059CF00BA8C5C /* LiveStockCrabDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveStockCrabDetailView.swift; sourceTree = "<group>"; };
 		1C814292256E487500714682 /* Aquarium life.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Aquarium life.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C814295256E487500714682 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1C814297256E487500714682 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -266,6 +294,8 @@
 		1C46FC1E2576E4EF00C3FAEF /* JSON files */ = {
 			isa = PBXGroup;
 			children = (
+				1C805B8F272FBE1B00BA8C5C /* crab.json */,
+				1C0130E0272BD22100F5CABF /* snail.json */,
 				1CC6C0E225EA736400D91B1E /* fish.json */,
 				1C0DFD7125EDA9BE004954A1 /* shrimp.json */,
 				1C0DFD7625EDA9D3004954A1 /* plant.json */,
@@ -280,6 +310,151 @@
 				1C5111642573F953008D7698 /* SearchBar.swift */,
 			);
 			path = SearchBar;
+			sourceTree = "<group>";
+		};
+		1C805B97272FF61900BA8C5C /* My Aquarium */ = {
+			isa = PBXGroup;
+			children = (
+				1C8142B9256E674200714682 /* MyTankView.swift */,
+				1C4A5C1025A8BB3300539913 /* AquariumDetailsView.swift */,
+				1C59EADE259DCB5000AA5B1A /* AddAquariumView.swift */,
+				1C805BA62730439400BA8C5C /* Fish */,
+				1C805BA72730439F00BA8C5C /* Shrimp */,
+				1C805BA8273043AB00BA8C5C /* Plant */,
+				1C805BA9273043B400BA8C5C /* Snail */,
+				1C805BAD2730455900BA8C5C /* Crab */,
+				1C805BAA273043BD00BA8C5C /* Log */,
+			);
+			path = "My Aquarium";
+			sourceTree = "<group>";
+		};
+		1C805B98272FF7A700BA8C5C /* Care Sheets */ = {
+			isa = PBXGroup;
+			children = (
+				1C8142BF256E676B00714682 /* LiveStockView.swift */,
+				1C51115B2573D6AC008D7698 /* LiveStockFishDetailView.swift */,
+				1C5111A12576CD71008D7698 /* LiveStockShrimpDetailView.swift */,
+				1C5111A42576CD74008D7698 /* LiveStockPlantDetailView.swift */,
+				1C805BB22730588400BA8C5C /* LiveStockSnailDetailView.swift */,
+				1C805BB4273059CF00BA8C5C /* LiveStockCrabDetailView.swift */,
+			);
+			path = "Care Sheets";
+			sourceTree = "<group>";
+		};
+		1C805B99272FF7EA00BA8C5C /* Calculators */ = {
+			isa = PBXGroup;
+			children = (
+				1C8142B6256E66F600714682 /* CalculatorView.swift */,
+				1C50DFE8257F9532003BCB78 /* CalculatorVolumeView.swift */,
+				1C50DFEB257F9BFD003BCB78 /* CalculatorSubstrateView.swift */,
+				1C50DFF7257F9C56003BCB78 /* CalculatorWaterChangeView.swift */,
+				1C50DFEE257F9C18003BCB78 /* CalculatorCO2View.swift */,
+				1C50DFF1257F9C30003BCB78 /* CalculatorNPKView.swift */,
+			);
+			path = Calculators;
+			sourceTree = "<group>";
+		};
+		1C805B9A272FF81400BA8C5C /* My Notes */ = {
+			isa = PBXGroup;
+			children = (
+				1CD66AAB25D506D400B8CEF3 /* NotesView.swift */,
+				1CD66AAF25D5106400B8CEF3 /* AddNotes.swift */,
+				1C359F9725D5A4EB00FB1295 /* NoteDetailsView.swift */,
+			);
+			path = "My Notes";
+			sourceTree = "<group>";
+		};
+		1C805B9B272FF83800BA8C5C /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				1CAEEBCE26BE57AE00227C83 /* StorageProvider.swift */,
+				1CF0A8EE25C8A636005992E3 /* AquariumLifeModel.xcdatamodeld */,
+			);
+			path = "Data Model";
+			sourceTree = "<group>";
+		};
+		1C805B9C272FF89700BA8C5C /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				1C28E37B25C4A74B00657D98 /* AdditionalInfoView.swift */,
+				1C9F271425B9A49800171D3F /* AddNotificationView.swift */,
+				1C8142C2256E677F00714682 /* SettingsView.swift */,
+				1C49700325B897790026DE69 /* NotificationsView.swift */,
+				1C4E1A1025838E7200081732 /* EmailHelper.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		1C805B9F272FF94E00BA8C5C /* JSON structs */ = {
+			isa = PBXGroup;
+			children = (
+				1C5111522573C896008D7698 /* Fish.swift */,
+				1C5111992576CCF9008D7698 /* Shrimp.swift */,
+				1C805B93272FE58500BA8C5C /* Crab.swift */,
+				1C805B95272FE67900BA8C5C /* Snail.swift */,
+				1C51119C2576CCFC008D7698 /* Plant.swift */,
+			);
+			path = "JSON structs";
+			sourceTree = "<group>";
+		};
+		1C805BA62730439400BA8C5C /* Fish */ = {
+			isa = PBXGroup;
+			children = (
+				1C4A5C4325AC79FC00539913 /* AddFishToAquariumView.swift */,
+				1C4A5C4C25AC7C6D00539913 /* SelectFish.swift */,
+				1C42CA1525C09ED4002F5AC1 /* AquariumFishSelectedDetails.swift */,
+			);
+			path = Fish;
+			sourceTree = "<group>";
+		};
+		1C805BA72730439F00BA8C5C /* Shrimp */ = {
+			isa = PBXGroup;
+			children = (
+				1C4A5C4625AC7A5A00539913 /* AddShrimpsToAquariumView.swift */,
+				1C4A5C4F25AC7D4000539913 /* SelectShrimp.swift */,
+				1C42CA1925C0A369002F5AC1 /* AquariumShrimpSelectedDetails.swift */,
+			);
+			path = Shrimp;
+			sourceTree = "<group>";
+		};
+		1C805BA8273043AB00BA8C5C /* Plant */ = {
+			isa = PBXGroup;
+			children = (
+				1C4A5C4925AC7A6F00539913 /* AddPlantsToAquariumView.swift */,
+				1C4A5C5225AC7DB400539913 /* SelectPlant.swift */,
+				1C42CA1D25C0A4AA002F5AC1 /* AquariumPlantSelectedDetails.swift */,
+			);
+			path = Plant;
+			sourceTree = "<group>";
+		};
+		1C805BA9273043B400BA8C5C /* Snail */ = {
+			isa = PBXGroup;
+			children = (
+				1C805BA4273041EB00BA8C5C /* SelectSnail.swift */,
+				1C805BA027300C0B00BA8C5C /* AddSnailsToAquariumView.swift */,
+				1C805BA227300E1900BA8C5C /* AquariumSnailSelectedDetails.swift */,
+			);
+			path = Snail;
+			sourceTree = "<group>";
+		};
+		1C805BAA273043BD00BA8C5C /* Log */ = {
+			isa = PBXGroup;
+			children = (
+				1C0983B125B17EA900446081 /* LogBookDetailsView.swift */,
+				1C17BA1A25B46094004EC826 /* LogBookDetailsSelectionView.swift */,
+				1C0983B425B17EF500446081 /* AddLogView.swift */,
+			);
+			path = Log;
+			sourceTree = "<group>";
+		};
+		1C805BAD2730455900BA8C5C /* Crab */ = {
+			isa = PBXGroup;
+			children = (
+				1C805BAB2730453C00BA8C5C /* AquariumCrabSelectedDetails.swift */,
+				1C805BAE2730464600BA8C5C /* AddCrabsToAquarium.swift */,
+				1C805BB02730471900BA8C5C /* SelectCrab.swift */,
+			);
+			path = Crab;
 			sourceTree = "<group>";
 		};
 		1C814289256E487500714682 = {
@@ -314,53 +489,22 @@
 				1CAEEBCC26BE56EC00227C83 /* AquariumLife.swift */,
 				1C5BD17E267272FC00AA3BEF /* InfoPlist.strings */,
 				1C814295256E487500714682 /* AppDelegate.swift */,
-				1CAEEBCE26BE57AE00227C83 /* StorageProvider.swift */,
 				1C814297256E487500714682 /* SceneDelegate.swift */,
 				1C56020025BD794C00C67F0A /* Constants.swift */,
-				1C28E37325C4281D00657D98 /* StoreManager.swift */,
 				1C8142AF256E4F4600714682 /* ParentView.swift */,
-				1C42CA1525C09ED4002F5AC1 /* AquariumFishSelectedDetails.swift */,
-				1C4A5C4325AC79FC00539913 /* AddFishToAquariumView.swift */,
-				1C4A5C4C25AC7C6D00539913 /* SelectFish.swift */,
-				1C42CA1925C0A369002F5AC1 /* AquariumShrimpSelectedDetails.swift */,
-				1C4A5C4625AC7A5A00539913 /* AddShrimpsToAquariumView.swift */,
-				1C4A5C4F25AC7D4000539913 /* SelectShrimp.swift */,
-				1C42CA1D25C0A4AA002F5AC1 /* AquariumPlantSelectedDetails.swift */,
-				1C4A5C4925AC7A6F00539913 /* AddPlantsToAquariumView.swift */,
-				1C4A5C5225AC7DB400539913 /* SelectPlant.swift */,
-				1C8142B9256E674200714682 /* MyTankView.swift */,
-				1CD66AAB25D506D400B8CEF3 /* NotesView.swift */,
-				1CD66AAF25D5106400B8CEF3 /* AddNotes.swift */,
-				1C359F9725D5A4EB00FB1295 /* NoteDetailsView.swift */,
-				1C4A5C1025A8BB3300539913 /* AquariumDetailsView.swift */,
-				1C0983B125B17EA900446081 /* LogBookDetailsView.swift */,
-				1C17BA1A25B46094004EC826 /* LogBookDetailsSelectionView.swift */,
-				1C0983B425B17EF500446081 /* AddLogView.swift */,
-				1CF0A8EE25C8A636005992E3 /* AquariumLifeModel.xcdatamodeld */,
-				1C59EADE259DCB5000AA5B1A /* AddAquariumView.swift */,
-				1C8142BF256E676B00714682 /* LiveStockView.swift */,
-				1C51115B2573D6AC008D7698 /* LiveStockFishDetailView.swift */,
-				1C5111A12576CD71008D7698 /* LiveStockShrimpDetailView.swift */,
-				1C5111A42576CD74008D7698 /* LiveStockPlantDetailView.swift */,
-				1C8142B6256E66F600714682 /* CalculatorView.swift */,
-				1C50DFE8257F9532003BCB78 /* CalculatorVolumeView.swift */,
-				1C50DFEB257F9BFD003BCB78 /* CalculatorSubstrateView.swift */,
-				1C50DFF7257F9C56003BCB78 /* CalculatorWaterChangeView.swift */,
-				1C50DFEE257F9C18003BCB78 /* CalculatorCO2View.swift */,
-				1C50DFF1257F9C30003BCB78 /* CalculatorNPKView.swift */,
-				1C28E37B25C4A74B00657D98 /* AdditionalInfoView.swift */,
 				1C4E1A182583B43800081732 /* DeviceInfo.swift */,
-				1C9F271425B9A49800171D3F /* AddNotificationView.swift */,
-				1C8142C2256E677F00714682 /* SettingsView.swift */,
-				1C49700325B897790026DE69 /* NotificationsView.swift */,
-				1C4E1A1025838E7200081732 /* EmailHelper.swift */,
+				1C28E37325C4281D00657D98 /* StoreManager.swift */,
+				1C805B9B272FF83800BA8C5C /* Data Model */,
+				1C805B97272FF61900BA8C5C /* My Aquarium */,
+				1C805B9A272FF81400BA8C5C /* My Notes */,
+				1C805B98272FF7A700BA8C5C /* Care Sheets */,
+				1C805B99272FF7EA00BA8C5C /* Calculators */,
+				1C805B9C272FF89700BA8C5C /* Settings */,
 				1C81429B256E487A00714682 /* Assets.xcassets */,
 				1C5111622573F953008D7698 /* SearchBar */,
 				1C8142A0256E487A00714682 /* LaunchScreen.storyboard */,
 				1C8142A3256E487A00714682 /* Info.plist */,
-				1C5111522573C896008D7698 /* Fish.swift */,
-				1C5111992576CCF9008D7698 /* Shrimp.swift */,
-				1C51119C2576CCFC008D7698 /* Plant.swift */,
+				1C805B9F272FF94E00BA8C5C /* JSON structs */,
 				1C5111552573C9E4008D7698 /* Bundle-Decodable.swift */,
 				1C46FC1E2576E4EF00C3FAEF /* JSON files */,
 				1C81429D256E487A00714682 /* Preview Content */,
@@ -533,12 +677,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C8142A2256E487A00714682 /* LaunchScreen.storyboard in Resources */,
+				1C805B8D272FBE1B00BA8C5C /* crab.json in Resources */,
 				1C5BD17C267272FC00AA3BEF /* InfoPlist.strings in Resources */,
 				1C0DFD7425EDA9D3004954A1 /* plant.json in Resources */,
 				1C81429F256E487A00714682 /* Preview Assets.xcassets in Resources */,
 				1C32B90625E948E90096A3D1 /* Localizable.strings in Resources */,
 				1C81429C256E487A00714682 /* Assets.xcassets in Resources */,
 				1C0DFD6F25EDA9BE004954A1 /* shrimp.json in Resources */,
+				1C0130DE272BD22100F5CABF /* snail.json in Resources */,
 				1CC6C0E025EA736400D91B1E /* fish.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -593,37 +739,47 @@
 				1C814296256E487500714682 /* AppDelegate.swift in Sources */,
 				1CAEEBCF26BE57AE00227C83 /* StorageProvider.swift in Sources */,
 				1C42CA1A25C0A369002F5AC1 /* AquariumShrimpSelectedDetails.swift in Sources */,
+				1C805BB32730588400BA8C5C /* LiveStockSnailDetailView.swift in Sources */,
 				1C814298256E487500714682 /* SceneDelegate.swift in Sources */,
 				1C754D0B26D7D21A008C4DD2 /* AquariumLifeIntents.intentdefinition in Sources */,
 				1C5111662573F953008D7698 /* SearchBar.swift in Sources */,
 				1C8142C3256E677F00714682 /* SettingsView.swift in Sources */,
 				1C4E1A1125838E7200081732 /* EmailHelper.swift in Sources */,
 				1C42CA1E25C0A4AB002F5AC1 /* AquariumPlantSelectedDetails.swift in Sources */,
+				1C805BAC2730453C00BA8C5C /* AquariumCrabSelectedDetails.swift in Sources */,
 				1C8142B7256E66F600714682 /* CalculatorView.swift in Sources */,
 				1CD66AAC25D506D400B8CEF3 /* NotesView.swift in Sources */,
 				1C42CA1625C09ED5002F5AC1 /* AquariumFishSelectedDetails.swift in Sources */,
 				1C4A5C4725AC7A5A00539913 /* AddShrimpsToAquariumView.swift in Sources */,
+				1C805BB12730471900BA8C5C /* SelectCrab.swift in Sources */,
 				1C28E37C25C4A74B00657D98 /* AdditionalInfoView.swift in Sources */,
 				1C8142BA256E674200714682 /* MyTankView.swift in Sources */,
 				1C5111562573C9E4008D7698 /* Bundle-Decodable.swift in Sources */,
+				1C805BA5273041EB00BA8C5C /* SelectSnail.swift in Sources */,
+				1C805BA327300E1900BA8C5C /* AquariumSnailSelectedDetails.swift in Sources */,
 				1C50DFF8257F9C56003BCB78 /* CalculatorWaterChangeView.swift in Sources */,
 				1C5111532573C896008D7698 /* Fish.swift in Sources */,
 				1C8142C0256E676B00714682 /* LiveStockView.swift in Sources */,
 				1C0983B225B17EA900446081 /* LogBookDetailsView.swift in Sources */,
 				1C28E37425C4281D00657D98 /* StoreManager.swift in Sources */,
+				1C805BAF2730464600BA8C5C /* AddCrabsToAquarium.swift in Sources */,
 				1C50DFE9257F9532003BCB78 /* CalculatorVolumeView.swift in Sources */,
 				1CAEEBCD26BE56EC00227C83 /* AquariumLife.swift in Sources */,
 				1C4A5C5025AC7D4000539913 /* SelectShrimp.swift in Sources */,
 				1C0983B525B17EF500446081 /* AddLogView.swift in Sources */,
 				1C5111A22576CD71008D7698 /* LiveStockShrimpDetailView.swift in Sources */,
+				1C805B96272FE67900BA8C5C /* Snail.swift in Sources */,
 				1C4A5C4D25AC7C6D00539913 /* SelectFish.swift in Sources */,
 				1CF0A8F025C8A636005992E3 /* AquariumLifeModel.xcdatamodeld in Sources */,
 				1C17BA1B25B46094004EC826 /* LogBookDetailsSelectionView.swift in Sources */,
 				1C49700425B897790026DE69 /* NotificationsView.swift in Sources */,
+				1C805B94272FE58500BA8C5C /* Crab.swift in Sources */,
 				1C4A5C1125A8BB3300539913 /* AquariumDetailsView.swift in Sources */,
 				1C56020125BD794C00C67F0A /* Constants.swift in Sources */,
 				1C51119A2576CCF9008D7698 /* Shrimp.swift in Sources */,
+				1C805BA127300C0B00BA8C5C /* AddSnailsToAquariumView.swift in Sources */,
 				1C9F271525B9A49800171D3F /* AddNotificationView.swift in Sources */,
+				1C805BB5273059CF00BA8C5C /* LiveStockCrabDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -642,6 +798,7 @@
 				1CAEEBE926BE757A00227C83 /* AquariumLifeWidget.swift in Sources */,
 				1C8E031C26BE79900027BBE3 /* AquariumLifeModel.xcdatamodeld in Sources */,
 				1C754D0C26D7D21A008C4DD2 /* AquariumLifeIntents.intentdefinition in Sources */,
+				1C805B9E272FF8F200BA8C5C /* StoreManager.swift in Sources */,
 				1C8E031E26BE79CA0027BBE3 /* Constants.swift in Sources */,
 				1C8E032126BE7A0E0027BBE3 /* StorageProvider.swift in Sources */,
 			);
@@ -653,6 +810,7 @@
 			files = (
 				1C8E032026BE7A0E0027BBE3 /* StorageProvider.swift in Sources */,
 				1C8E031D26BE79910027BBE3 /* AquariumLifeModel.xcdatamodeld in Sources */,
+				1C805B9D272FF8F200BA8C5C /* StoreManager.swift in Sources */,
 				1CAEEBFE26BE762900227C83 /* IntentHandler.swift in Sources */,
 				1C754D0D26D7D21A008C4DD2 /* AquariumLifeIntents.intentdefinition in Sources */,
 			);
@@ -679,6 +837,15 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		1C0130E0272BD22100F5CABF /* snail.json */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C0130E1272BD22400F5CABF /* en */,
+				1C0130E2272BD22500F5CABF /* hi */,
+			);
+			name = snail.json;
+			sourceTree = "<group>";
+		};
 		1C0DFD7125EDA9BE004954A1 /* shrimp.json */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -723,6 +890,15 @@
 				1C754D1926D7D745008C4DD2 /* hi */,
 			);
 			name = AquariumLifeIntents.intentdefinition;
+			sourceTree = "<group>";
+		};
+		1C805B8F272FBE1B00BA8C5C /* crab.json */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C805B8E272FBE1B00BA8C5C /* en */,
+				1C805B90272FBE2200BA8C5C /* hi */,
+			);
+			name = crab.json;
 			sourceTree = "<group>";
 		};
 		1C8142A0256E487A00714682 /* LaunchScreen.storyboard */ = {
@@ -882,7 +1058,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.5.1;
+				MARKETING_VERSION = 1.6;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sahil.satralkar.AquariumLife;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -908,7 +1084,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.5.1;
+				MARKETING_VERSION = 1.6;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sahil.satralkar.AquariumLife;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -974,7 +1150,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.5.1;
+				MARKETING_VERSION = 1.6;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sahil.satralkar.AquariumLife.AquariumLifeWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -999,7 +1175,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.5.1;
+				MARKETING_VERSION = 1.6;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sahil.satralkar.AquariumLife.AquariumLifeWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -1022,7 +1198,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.5.1;
+				MARKETING_VERSION = 1.6;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sahil.satralkar.AquariumLife.AquariumLifeIntents;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -1045,7 +1221,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.5.1;
+				MARKETING_VERSION = 1.6;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sahil.satralkar.AquariumLife.AquariumLifeIntents;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;

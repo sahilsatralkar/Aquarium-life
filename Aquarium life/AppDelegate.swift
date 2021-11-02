@@ -16,7 +16,7 @@ import CoreData
 //Class to handle the quick action selection
 class SelectedTab : ObservableObject {
     // v.1.4.1
-    @Published var tabNumber : TabIdentifier = TabIdentifier.myAquariums
+    @Published var tabNumber : TabIdentifier = TabIdentifier.careSheets
     
 }
 //
