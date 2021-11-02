@@ -42,13 +42,14 @@ struct MyTankView: View {
                                 NavigationLink(destination: AquariumDetailsView(selectedAquarium: aquarium)) {
                                 VStack(alignment: .leading) {
                                     Text("\(aquarium.aquariumName ?? "")")
-                                        .font(.title)
+                                        .font(.title2)
                                     
                                     VStack(alignment: .leading){
                                         Group {
                                             HStack {
                                                 Image(systemName: "drop")
                                                     .frame(width:20)
+                                                    .foregroundColor(.blue)
                                                     Text("\(aquarium.volume, specifier: Constants.Specifier.zero)")
                                                     Text(LocalizedStringKey("LitersVolume")).padding(.leading, -5)
                                                 
@@ -56,23 +57,26 @@ struct MyTankView: View {
                                             HStack {
                                                 Image(systemName: "square.stack.3d.up")
                                                     .frame(width:20)
-                                                
+                                                    .foregroundColor(.gray)
                                                     Text(LocalizedStringKey(aquarium.externalFiltration ?? ""))
                                                     Text(LocalizedStringKey("Filtration")).padding(.leading, -5)
                                                 
                                             }
-                                            .padding(.top,1)
-                                            .padding(.bottom,1)
+                                           .padding(.top,1)
+//                                            .padding(.bottom,1)
                                             HStack {
                                                 Image(systemName: "circle.grid.3x3.fill")
                                                     .frame(width:20)
+                                                    .foregroundColor(.black)
                                                     Text(LocalizedStringKey(aquarium.substrate ?? ""))
                                                     Text(LocalizedStringKey("Substrate")).padding(.leading, -5)
                                             }
                                         }
+                                        .padding(.top,1)
                                         HStack {
                                             Image(systemName: "thermometer")
                                                 .frame(width:20)
+                                                .foregroundColor(.red)
                                             if aquarium.heater == "Yes" {
                                                 Text(LocalizedStringKey("WithHeating"))
                                             } else {
@@ -83,12 +87,13 @@ struct MyTankView: View {
                                         HStack {
                                             Image(systemName: "calendar")
                                                 .frame(width:20)
-                                            Text("\(aquarium.date ?? Date(), formatter: Self.taskDateFormat)")
+                                                .foregroundColor(.green)
+                                            Text("Since \(aquarium.date ?? Date(), formatter: Self.taskDateFormat)")
                                         }
                                         .padding(.top,1)
                                         .padding(.bottom,1)
                                     }
-                                    .font(.system(size: 14))
+                                    .font(.footnote)
                                     .foregroundColor(.gray)
                                     .padding(1)
                                 }
