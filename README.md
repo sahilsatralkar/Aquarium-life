@@ -12,6 +12,7 @@ Downloads: 417
 In-app purchases: 13
 
 
+
 The app code makes use of following frameworks / technologies
 1. SwiftUI
 2. Accessibility support
