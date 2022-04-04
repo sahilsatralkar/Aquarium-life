@@ -219,6 +219,8 @@
 		1C8142BF256E676B00714682 /* LiveStockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveStockView.swift; sourceTree = "<group>"; };
 		1C8142C2256E677F00714682 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		1C9323B527FADA7A005400DF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1C9323B627FAE4C8005400DF /* CODE_OF_CONDUCT.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CODE_OF_CONDUCT.md; sourceTree = "<group>"; };
+		1C9323B727FAE4D2005400DF /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
 		1C9F271425B9A49800171D3F /* AddNotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNotificationView.swift; sourceTree = "<group>"; };
 		1CAEEBCC26BE56EC00227C83 /* AquariumLife.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AquariumLife.swift; sourceTree = "<group>"; };
 		1CAEEBCE26BE57AE00227C83 /* StorageProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageProvider.swift; sourceTree = "<group>"; };
@@ -462,6 +464,8 @@
 			isa = PBXGroup;
 			children = (
 				1C9323B527FADA7A005400DF /* README.md */,
+				1C9323B627FAE4C8005400DF /* CODE_OF_CONDUCT.md */,
+				1C9323B727FAE4D2005400DF /* LICENSE.md */,
 				1CAEEBF426BE75A000227C83 /* AquariumLifeWidgetExtension.entitlements */,
 				1C814294256E487500714682 /* Aquarium life */,
 				1CAEEBD526BE74B200227C83 /* Aquarium lifeTests */,
