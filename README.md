@@ -6,7 +6,8 @@ These are the life time stats for the app:
 
 Downloads: 417. In-app purchases: 13
 
-<img width="651" alt="Screenshot 2022-04-04 at 1 12 07 PM" src="https://user-images.githubusercontent.com/62758655/161500704-41f095ce-c607-427b-8279-506625847c99.png">
+
+<img width="450" alt="12" src="https://user-images.githubusercontent.com/62758655/161531419-a32fe8d2-919b-405e-8e31-1444504e3246.png">
 
 
 
