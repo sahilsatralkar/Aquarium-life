@@ -21,3 +21,5 @@ The app code makes use of following frameworks / technologies
 7. Widgets (small, medium, large)
 8. JSON parsing
 9. Quick actions, etc.
+
+https://imgur.com/z5f2nm3
