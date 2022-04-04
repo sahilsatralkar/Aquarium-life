@@ -24,3 +24,4 @@ The app code makes use of following frameworks / technologies
 
 
 ![aquariums](https://user-images.githubusercontent.com/62758655/161528565-cc859f06-654a-4490-a9d6-8289060932df.gif)
+![Calculators](https://user-images.githubusercontent.com/62758655/161528919-5d5540e9-b1a2-4337-8c5b-5021021d8f3d.gif)
