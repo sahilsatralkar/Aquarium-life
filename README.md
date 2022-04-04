@@ -22,4 +22,5 @@ The app code makes use of following frameworks / technologies
 8. JSON parsing
 9. Quick actions, etc.
 
-https://imgur.com/z5f2nm3
+<img width="300" alt="gif" src="https://imgur.com/z5f2nm3">
+
