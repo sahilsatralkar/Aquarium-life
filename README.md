@@ -23,4 +23,4 @@ The app code makes use of following frameworks / technologies
 9. Quick actions, etc.
 
 
-![gify](https://user-images.githubusercontent.com/62758655/161524875-002dc3a8-87d1-4d2b-a07f-f8c4be0062e9.gif)
+![aquariums](https://user-images.githubusercontent.com/62758655/161528565-cc859f06-654a-4490-a9d6-8289060932df.gif)
