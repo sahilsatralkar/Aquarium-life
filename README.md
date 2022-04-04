@@ -5,7 +5,8 @@ Aquarium Life is an iPhone app for management of Home Aquariums. The app was lau
 <img width="651" alt="Screenshot 2022-04-04 at 1 12 07 PM" src="https://user-images.githubusercontent.com/62758655/161500704-41f095ce-c607-427b-8279-506625847c99.png">
 
 
-These are the life time stats for the app,
+These are the life time stats for the app:
+
 Downloads: 417
 In-app purchases: 13
 
