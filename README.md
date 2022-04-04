@@ -22,4 +22,9 @@ The app code makes use of following frameworks / technologies
 8. JSON parsing
 9. Quick actions, etc.
 
-![aquariums](https://user-images.githubusercontent.com/62758655/161529269-3d8836c2-75ea-454d-9e00-3c0d0463a7d7.gif)
+
+![aquariums](https://user-images.githubusercontent.com/62758655/161529870-08c5500e-2a88-4971-9ae7-f6ddde297944.gif)
+![Calculators](https://user-images.githubusercontent.com/62758655/161529910-b30bd165-4cf3-4c22-9e2a-b88ed9f4b57c.gif)
+![plants](https://user-images.githubusercontent.com/62758655/161529953-631095c4-651c-4c20-b040-e2f6b140b474.gif)
+![Setttings](https://user-images.githubusercontent.com/62758655/161530012-c8de0519-5ff4-47c8-a46e-fba5c92399fa.gif)
+![widget](https://user-images.githubusercontent.com/62758655/161530030-2ba76389-f3f9-435e-b916-06ae1b8c8b43.gif)
