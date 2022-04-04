@@ -23,8 +23,18 @@ The app code makes use of following frameworks / technologies
 9. Quick actions, etc.
 
 
+Some user flows as follows
+1. My aquariums
 ![aquariums](https://user-images.githubusercontent.com/62758655/161529870-08c5500e-2a88-4971-9ae7-f6ddde297944.gif)
+
+2. Calculators
 ![Calculators](https://user-images.githubusercontent.com/62758655/161529910-b30bd165-4cf3-4c22-9e2a-b88ed9f4b57c.gif)
+
+3. Plants
 ![plants](https://user-images.githubusercontent.com/62758655/161529953-631095c4-651c-4c20-b040-e2f6b140b474.gif)
+
+4. Notes and Settings
 ![Setttings](https://user-images.githubusercontent.com/62758655/161530012-c8de0519-5ff4-47c8-a46e-fba5c92399fa.gif)
+
+5. Widget
 ![widget](https://user-images.githubusercontent.com/62758655/161530030-2ba76389-f3f9-435e-b916-06ae1b8c8b43.gif)
