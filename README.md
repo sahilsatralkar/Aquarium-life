@@ -25,7 +25,7 @@ The app code makes use of following frameworks / technologies
 
 
 ### Some user flows as follows
-|1. My aquariums | 2. Calculators | 3. Plants |           
+|1. My aquariums | 2. Calculators | 3. Care sheets |           
 | --- | --- | -- |
 | ![aquariums](https://user-images.githubusercontent.com/62758655/161529870-08c5500e-2a88-4971-9ae7-f6ddde297944.gif) | ![Calculators](https://user-images.githubusercontent.com/62758655/161529910-b30bd165-4cf3-4c22-9e2a-b88ed9f4b57c.gif) | ![plants](https://user-images.githubusercontent.com/62758655/161529953-631095c4-651c-4c20-b040-e2f6b140b474.gif) |
 
