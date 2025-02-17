@@ -1,6 +1,6 @@
 # Aquarium life
 
-Aquarium Life is an iPhone app for management of Home Aquariums. The app was launched on Apple App Store in 2021 but removed after my membership ended on February 2022. The app code is now open sourced.
+Aquarium Life is an iPhone app for management of Home Aquariums. The app was launched on Apple App Store in 2021. The app code is now open sourced.
 
 These are the life time stats for the app:
 
