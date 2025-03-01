@@ -6,6 +6,9 @@ These are some of the stats for the app:
 
 Downloads: 500+. In-app purchases: 10+
 
+App Store link: https://apps.apple.com/in/app/aquarium-life-fish-shrimps/id1551311809
+
+
 
 <img width="450" alt="12" src="https://user-images.githubusercontent.com/62758655/161531419-a32fe8d2-919b-405e-8e31-1444504e3246.png">
 
